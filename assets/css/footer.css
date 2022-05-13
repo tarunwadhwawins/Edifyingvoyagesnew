@@ -1,0 +1,70 @@
+.footer-section .footer-top {
+  padding: 65px 0;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap {
+  font-size: 13px;
+  margin-bottom: 1.4rem;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap ul li a {
+  font-size: 13px;
+  line-height: 24px;
+  padding: 3px 0;
+  color: inherit;
+  opacity: 0.8;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap h4 {
+  font-size: 13px;
+  margin-bottom: 1.4rem;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap .social-nav .social-list .tooltip-hover {
+  position: relative;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap .social-nav .social-list .tooltip-hover a {
+  opacity: 0.8;
+  transition: all 0.3s ease-in;
+  padding: 3px 8px;
+  font-size: 14px;
+  display: block;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap .social-nav .social-list .tooltip-hover .tooltip-item {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  pointer-events: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  bottom: 90%;
+  left: 50%;
+  opacity: 0;
+  white-space: nowrap;
+  visibility: hidden;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 15px;
+  transform: translate3d(-50%, 0px, 0px);
+  padding: 0.4rem 0.8rem;
+  border-radius: 3px;
+  transition: all 0.35s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap .social-nav .social-list .tooltip-hover .tooltip-item::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0px;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: 6px solid rgb(255, 255, 255);
+  border-right: 6px solid transparent;
+  border-left: 6px solid transparent;
+}
+.footer-section .footer-top .footer-top-wrap .footer-nav-wrap .social-nav .social-list .tooltip-hover:hover .tooltip-item {
+  opacity: 1;
+  visibility: visible;
+  bottom: calc(100% + 5px);
+}
+.footer-section .footer-bottom .copyright-text {
+  font-size: 13px;
+}
+.footer-section .footer-bottom .social-list li a {
+  padding: 6px 10px;
+  font-size: 13px;
+}

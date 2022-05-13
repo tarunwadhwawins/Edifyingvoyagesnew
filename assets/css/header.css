@@ -1,0 +1,143 @@
+/*--Header css--*/
+.header .topbar-text ul li {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+.header .topbar-text ul li a {
+  display: inline-flex;
+  align-items: center;
+  color: inherit;
+}
+.header .navbar {
+  padding: 0.3rem 1rem;
+  transition: all 0.3s ease-in-out;
+}
+.header .navbar.fixed-top {
+  top: auto;
+}
+.header .navbar.fixed-top.affix {
+  top: 0;
+  box-shadow: 0 3px 20px 0 rgba(0, 0, 0, 0.12);
+}
+.header .navbar .navbar-brand {
+  font-size: inherit;
+  height: auto;
+  width: 80px;
+}
+.header .navbar .menu {
+  display: block;
+}
+.header .navbar .menu li {
+  display: inline-block;
+  position: relative;
+}
+.header .navbar .menu li a {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  padding: 20px 12px;
+  display: block;
+  transition: all 0.3s ease-in-out 0s;
+  color: var(--menu-color);
+  opacity: 0.8;
+}
+.header .navbar .menu li a:hover {
+  opacity: 1;
+}
+.header .navbar .menu li a.dropdown-toggle:after {
+  position: relative;
+  left: 2px;
+  vertical-align: middle;
+}
+.header .navbar .menu li ul {
+  visibility: hidden;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  position: absolute;
+  left: 0;
+  background: var(--white-color);
+  z-index: 9;
+  border-radius: 4px;
+  transform: translate(0, 20px);
+  transition: all 0.3s ease-out;
+  -webkit-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.header .navbar .menu li ul::after {
+  bottom: 100%;
+  left: 35px;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border: solid transparent;
+  border-bottom-color: #fff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.header .navbar .menu li ul li {
+  display: block;
+  float: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.header .navbar .menu li ul li a {
+  text-transform: inherit;
+  font-weight: normal;
+  display: block;
+  color: #424141;
+  padding: 8px 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.header .navbar .menu li ul li a:hover {
+  color: var(--white-color);
+  background: var(--primary-color);
+}
+.header .navbar .menu li ul li a.dropdown-toggle-inner::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  margin-left: auto;
+  position: absolute;
+  right: 15px;
+  font-size: 12px;
+}
+.header .navbar .menu li ul li ul {
+  left: 200px;
+  top: 0;
+  visibility: hidden !important;
+  opacity: 0;
+  transform: translate(20px, 20px);
+  transition: all 0.2s ease-out;
+}
+.header .navbar .menu li ul li ul::after {
+  left: -8px;
+  top: 10px;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(255, 255, 255, 0);
+  border: solid transparent;
+  border-right-color: #fff;
+  border-width: 8px;
+}
+.header .navbar .menu li ul li:hover ul {
+  visibility: visible !important;
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.header .navbar .menu li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  transform: translate(0, 0);
+}
