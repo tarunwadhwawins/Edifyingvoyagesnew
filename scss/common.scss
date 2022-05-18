@@ -269,11 +269,11 @@ b {
         position: absolute;
         content: "";
         width: 35px;
-        height: 3px;
+        // height: 3px;
         left: 15px;
         bottom: 0;
         border-left: 10px solid var(--white-color);
-       border-right: 10px solid var(--white-color);
+        border-right: 10px solid var(--white-color);
        -webkit-animation: animborder 2s linear infinite;
         animation: animborder 2s linear infinite;
     }

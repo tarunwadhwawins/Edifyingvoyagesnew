@@ -1,6 +1,6 @@
      <footer class="footer-section">
         <div class="footer-top gradient-bg">
-            <div class="container">
+            <div class="container-xl">
                 <div class="row">
                     <div class="col-sm-12 col-md-12 col-lg-9">
                         <div class="row footer-top-wrap">
@@ -100,7 +100,7 @@
             </div>
         </div>
         <div class="footer-bottom gray-light-bg py-2">
-            <div class="container">
+            <div class="container-xl">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">
                         <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All

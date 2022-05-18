@@ -6,7 +6,7 @@
 <div class="main pt-70">
     <!---->
     <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
@@ -24,7 +24,7 @@
     </section>
     <!---->
     <section class="contact-us-promo pt-100">
-        <div class="container">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="card single-promo-card single-promo-hover text-center shadow-sm">
@@ -75,7 +75,7 @@
         </div>
     </section>
     <section class="contact-us-section ptb-100">
-        <div class="container contact">
+        <div class="container-xl contact">
             <div class="col-12 pb-3 message-box d-none">
                 <div class="alert alert-danger"></div>
             </div>

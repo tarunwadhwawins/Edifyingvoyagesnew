@@ -1,7 +1,7 @@
   <header class="header">
     <!--topbar start-->
     <div id="header-top-bar" class="primary-bg py-2">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-between align-items-center">
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
@@ -35,7 +35,7 @@
     <!--topbar end-->
     <!--start navbar-->
     <nav class="navbar navbar-expand-lg fixed-top white-bg">
-        <div class="container">
+        <div class="container-xl">
             <a class="navbar-brand" href="index">
                 <img src="assets/images/logo.svg" alt="logo" class="img-fluid"/>
             </a>
