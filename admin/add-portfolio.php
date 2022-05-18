@@ -63,9 +63,7 @@ if (isset($_POST['submit'])) {
     // print_r($_POST);
     // print_r($_FILES);
     // die;
-    $seo_title = get_safe_value($conn, $_POST['seo_title']);
-    $seo_keyword = get_safe_value($conn, $_POST['seo_keyword']);
-    $seo_desc = get_safe_value($conn, $_POST['seo_desc']);
+    
     $category_id = get_safe_value($conn, $_POST['category_id']);
     $title = get_safe_value($conn, $_POST['title']);
     $tags = (implode(',', @$_POST['tags']));
@@ -112,12 +110,12 @@ if (isset($_POST['submit'])) {
     if ($msg == '') {
         if (isset($_GET['id']) && $_GET['id'] != '') {
             if ($MainImageQuery != '' || $Section1ImageQuery != '' || $Section2ImageQuery != '' || $sliderImageUpdate != '') {
-                $update_sql = "update portfolio set  seo_title = '$seo_title' , seo_keyword = '$seo_keyword' , seo_desc = '$seo_desc' ,
+                $update_sql = "update portfolio set  
                 category_id = '$category_id' , title='$title', slug='$slug' , tags = '$tags', banner_heading='$banner_heading', 
                 fs_heading = '$fs_heading' , fs_sub_heading = '$fs_sub_heading', fs_description = '$fs_description' $Section1ImageQuery , image_text = '$image_text' , ss_description = '$ss_description' $Section2ImageQuery  , date='$date' ,
                 short_desc='$short_desc' $MainImageQuery $sliderImageUpdate  where id='$id'";
             } else {
-                $update_sql = "update portfolio set  seo_title = '$seo_title' , seo_keyword = '$seo_keyword' , seo_desc = '$seo_desc' ,
+                $update_sql = "update portfolio set  
                 category_id = '$category_id' , title='$title', slug='$slug' , tags = '$tags', banner_heading='$banner_heading', fs_heading = '$fs_heading' ,
                 fs_sub_heading = '$fs_sub_heading', fs_description = '$fs_description', image_text = '$image_text'  , ss_description = '$ss_description'  , date='$date' ,
                 short_desc='$short_desc'  where id='$id'";
@@ -129,8 +127,8 @@ if (isset($_POST['submit'])) {
             $_SESSION['success_message'] = "Data updated successfully.";
             header('location:add-portfolio.php?id=' . $id);
         } else {
-            mysqli_query($conn, "insert into portfolio (seo_title, seo_keyword, seo_desc,category_id, title, slug , tags, banner_heading , sub_heading , short_desc, fs_heading , fs_sub_heading ,  fs_description ,  fs_image , image_text , ss_description ,  ss_image , date, status, image,slider_image) 
-            values('$seo_title', '$seo_keyword', '$seo_desc', '$category_id', '$title', '$slug' , '$tags', '$banner_heading', '', '$short_desc', '$fs_heading', '$fs_sub_heading' , '$fs_description'  , '$fsImage', '$image_text' , '$ss_description' , '$ssImage' , '$date', '1', '$image',  '$fileName')");
+            mysqli_query($conn, "insert into portfolio (category_id, title, slug , tags, banner_heading , sub_heading , short_desc, fs_heading , fs_sub_heading ,  fs_description ,  fs_image , image_text , ss_description ,  ss_image , date, status, image,slider_image) 
+            values( '$category_id', '$title', '$slug' , '$tags', '$banner_heading', '', '$short_desc', '$fs_heading', '$fs_sub_heading' , '$fs_description'  , '$fsImage', '$image_text' , '$ss_description' , '$ssImage' , '$date', '1', '$image',  '$fileName')");
             $id = $conn->insert_id;
             session_start();
             $_SESSION['success_message'] = "Data inserted successfully.";
@@ -204,26 +202,7 @@ if (isset($_POST['submit'])) {
                 }
                 ?>
                 <form method="post" name="portfolioForm" enctype="multipart/form-data">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Seo Title</label>
-                                <input type="text" name="seo_title" value="<?php echo $seo_title ?>" class="form-control" placeholder="Enter  Title" />
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Seo Keyword</label>
-                                <input type="text" name="seo_keyword" value="<?php echo $seo_keyword ?>" class="form-control" placeholder="Enter  Title" />
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label>Seo Description</label>
-                                <textarea class="form-control" name="seo_desc" placeholder="Enter Seo Description"><?php echo $seo_desc ?></textarea>
-                            </div>
-                        </div>
-                    </div>
+                   
 
                     <div class="row">
                         <div class="col-sm-6">
