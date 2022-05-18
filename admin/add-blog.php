@@ -160,7 +160,7 @@ if (isset($_POST['submit'])) {
                         <div class="col-sm-12">
                             <div class="form-group">
                                 <label>Page Description</label>
-                                <textarea class="ckeditor" name="editor1" id="editor1" required><?php echo $desc1 ?></textarea>
+                                <textarea name="editor1" id="editor1" required><?php echo $desc1 ?></textarea>
                             </div>
                         </div>
                         <div class="col-sm-12">
@@ -201,14 +201,23 @@ if (isset($_POST['submit'])) {
     </div>
     <!---->
     <?php include_once('common/commonjs.php'); ?>
-    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+    <script src="<?php echo $url; ?>admin/assets/js/ckeditor/ckeditor.js"></script>
     <!---->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
 
     <script>
         $(document).ready(function() {
-            CKEDITOR.instances.editor1.on('change', function() { 	
+            
+            CKEDITOR.replace('editor1', {
+                extraPlugins: 'uploadimage',
+
+                filebrowserImageUploadUrl: '<?php echo $url; ?>upload?command=QuickUpload&type=Images',
+
+                  
+                  removeButtons: 'PasteFromWord'
+            });
+            CKEDITOR.instances.editor1.on('change', function() {    
                 if(CKEDITOR.instances.editor1.getData().length >  0) {
                     $('label[for="editor1"]').hide();
                 }
@@ -219,10 +228,7 @@ if (isset($_POST['submit'])) {
             });
         });
 
-        $(window).on('load', function() {
-            CKEDITOR.replace('editor1');
-        });
-
+        
         $(function() {
             $("form[name='blogForm']").validate({
                 // Define validation rules
@@ -296,18 +302,7 @@ if (isset($_POST['submit'])) {
         }
         window.setTimeout("document.getElementById('successMessage').style.display='none';", 2000);
     </script>
-    <script src="https://unpkg.com/@jcubic/tagger@0.x.x/tagger.js"></script>
-    <script>
-        var input = document.querySelector('[name="seo_keyword"]');
-        var seo_keyword = tagger(input, {
-            allow_duplicates: false,
-            allow_spaces: true,
-            wrap: true,
-            completion: {
-                list: ['foo', 'bar', 'tomato', 'tomato sause']
-            }
-        });
-    </script>
+    
 
 </body>
 
