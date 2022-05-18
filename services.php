@@ -6,8 +6,8 @@
 <div class="main pt-70">
     <!---->
     <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
-        <div class="container">
-            <div class="row justify-content-center">
+        <div class="container-xl">
+            <div class="row-xl justify-content-center">
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
                         <h1 class="color-white mb-0">Services</h1>
@@ -24,7 +24,7 @@
     </section>
     <!---->
     <section class="promo-section ptb-100">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
@@ -73,7 +73,7 @@
     </section>
     <!---->
     <section class="services-section ptb-100 gray-light-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-4">
@@ -145,7 +145,7 @@
     </section>
     <!---->
     <section class="call-to-action ptb-100">
-        <div class="container">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="circle-box">
@@ -188,7 +188,7 @@
     </section>
     <!---->
     <section class="contact-us-section ptb-100  gray-light-bg">
-        <div class="container contact">
+        <div class="container-xl contact">
             <div class="col-12 pb-3 message-box d-none">
                 <div class="alert alert-danger"></div>
             </div>

@@ -5,7 +5,7 @@
 <!---->
 <div class="main pt-70">
     <section class="gradient-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-5">
                     <div class="hero-slider-content text-white pt-5">
@@ -27,7 +27,7 @@
     </section>
     <!---->
     <section class="promo-section ptb-100">
-        <div class="container">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-md-4 col-lg-4">
                     <a href="#">
@@ -67,7 +67,7 @@
     </section>
     <!---->
     <section class="about-us-section ptb-100 gray-light-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="about-us-img">
@@ -136,7 +136,7 @@
     </section>
     <!---->
     <section class="call-to-action ptb-70 primary-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
                     <div class="section-heading text-center text-white">
@@ -150,7 +150,7 @@
     </section>
     <!---->
     <section class="services-section ptb-100 gray-light-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-5">
@@ -170,7 +170,7 @@
                         <h5>Digital Marketing</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -179,7 +179,7 @@
                         <h5>Content Marketing</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -188,7 +188,7 @@
                         <h5>Social Media Marketing</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -197,7 +197,7 @@
                         <h5>SEO Services</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -206,7 +206,7 @@
                         <h5>Email Marketing</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
@@ -215,7 +215,7 @@
                         <h5>Creative Consultancy</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
-                        <a href="services-details.html" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
+                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
                     </div>
                 </div>
             </div>
@@ -223,7 +223,7 @@
     </section>
     <!---->
     <section class="call-to-action ptb-70 primary-bg">
-        <div class="container">
+        <div class="container-xl">
             <div class="row  justify-content-center">
                 <div class="col-md-10 col-lg-9">
                     <div class="section-heading text-center text-white">
@@ -238,7 +238,7 @@
     </section>
     <!---->
     <section class="outstanding-section ptb-100">
-        <div class="container">
+        <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-1">
@@ -425,7 +425,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -436,7 +436,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -447,7 +447,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -458,7 +458,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -469,7 +469,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -480,7 +480,7 @@
                                             <p class="mb-0">Progressively empower business "outside the box" thinking
                                                 with resource-leveling
                                                 partnerships.</p>
-                                            <a href="services-details.html" target="_blank" class="detail-link mt-4">Read
+                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
                                                 more <span class="ti-arrow-right"></span></a>
                                         </div>
                                     </div>
@@ -494,7 +494,7 @@
     </section>
     <!---->
     <section class="testimonial-section ptb-100" style="background: url('assets/images/testimonial-bg.png')no-repeat center center / cover">
-        <div class="container">
+        <div class="container-xl">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-5">
                     <div class="testimonial-heading text-white">
