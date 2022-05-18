@@ -10,9 +10,6 @@ if (isset($_GET['id']) && $_GET['id'] != '') {
     if ($check > 0) {
 
         $row = mysqli_fetch_assoc($res);
-        $seo_title = $row['seo_title'];
-        $seo_keyword = $row['seo_keyword'];
-        $seo_desc = $row['seo_desc'];
         $title = $row['title'];
         $slug = $row['slug'];
         $short_desc = $row['short_desc'];
@@ -27,9 +24,6 @@ if (isset($_GET['id']) && $_GET['id'] != '') {
 }
 
 if (isset($_POST['submit'])) {
-    $seo_title = get_safe_value($conn, $_POST['seo_title']);
-    $seo_keyword = get_safe_value($conn, $_POST['seo_keyword']);
-    $seo_desc = get_safe_value($conn, $_POST['seo_desc']);
     $title = get_safe_value($conn, $_POST['title']);
     $short_desc = get_safe_value($conn, $_POST['short_desc']);
     $desc1 = get_safe_value($conn, $_POST['editor1']);
@@ -71,18 +65,16 @@ if (isset($_POST['submit'])) {
     if ($msg == '') {
         if (isset($_GET['id']) && $_GET['id'] != '') {
             if (isset($_FILES['image']) && $_FILES['image']['name'] != '') {
-                $update_sql = "update blogs set  seo_title='$seo_title', seo_keyword='$seo_keyword', seo_desc='$seo_desc', 
-                title='$title', slug='$slug', short_desc='$short_desc' , desc1='$desc1', date='$date', image='$image',  url='$Blogurl'  where id='$id'";
+                $update_sql = "update blogs set   title='$title', slug='$slug', short_desc='$short_desc' , desc1='$desc1', date='$date', image='$image',  url='$Blogurl'  where id='$id'";
             } else {
-                $update_sql = "update blogs set  seo_title='$seo_title', seo_keyword='$seo_keyword', seo_desc='$seo_desc', 
-                title='$title', slug='$slug' , short_desc='$short_desc' ,desc1='$desc1', date='$date' ,  url='$Blogurl'  where id='$id'";
+                $update_sql = "update blogs set title='$title', slug='$slug' , short_desc='$short_desc' ,desc1='$desc1', date='$date' ,  url='$Blogurl'  where id='$id'";
             }
             mysqli_query($conn, $update_sql);
             session_start();
             $_SESSION['success_message'] = "Data Updated successfully.";
         } else {
-            mysqli_query($conn, "insert into blogs (seo_title, seo_keyword, seo_desc, title, slug , short_desc ,desc1,  image, url , status, date) 
-            values('$seo_title', '$seo_keyword', '$seo_desc',  '$title', '$slug' , '$short_desc' ,'$desc1', '$image', '$Blogurl' , '1', '$date' )");
+            mysqli_query($conn, "insert into blogs (title, slug , short_desc ,desc1,  image, url , status, date) 
+            values('$title', '$slug' , '$short_desc' ,'$desc1', '$image', '$Blogurl' , '1', '$date' )");
 
 
             session_start();
@@ -136,25 +128,6 @@ if (isset($_POST['submit'])) {
                 ?>
                 <form method="post" name="blogForm" enctype="multipart/form-data">
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Seo Title</label>
-                                <input type="text" name="seo_title" value="<?php echo $seo_title ?>" class="form-control" placeholder="Enter Seo Title" />
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="form-group">
-                                <label>Seo Keyword</label>
-                                <input class="form-control" type="text" value="<?php echo $seo_keyword ?>" name="seo_keyword" placeholder="Enter Seo Keyword" />
-                                <!-- <input type="text" name="seo_keyword" value="<?php echo $seo_keyword ?>" class="form-control" placeholder="Enter Seo Keyword" /> -->
-                            </div>
-                        </div>
-                        <div class="col-sm-12">
-                            <div class="form-group">
-                                <label>Seo Description</label>
-                                <textarea class="form-control" name="seo_desc" placeholder="Enter Seo Description"><?php echo $seo_desc ?></textarea>
-                            </div>
-                        </div>
                         <div class="col-sm-8">
                             <div class="form-group">
                                 <label>Page Title</label>
