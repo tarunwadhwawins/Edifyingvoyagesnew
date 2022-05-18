@@ -1,0 +1,368 @@
+header {
+  width: 100%;
+  padding-left: 250px;
+  height: 60px;
+  align-items: center;
+  display: flex !important;
+  justify-content: flex-end;
+  background-color: #fff; }
+  @media (max-width: 991px) {
+    header {
+      padding-left: 0; } }
+  header .navbar {
+    padding: 0px; }
+    header .navbar .icon-sidebar {
+      display: none;
+      cursor: pointer; }
+      @media (max-width: 991px) {
+        header .navbar .icon-sidebar {
+          display: block; } }
+    @media (max-width: 991px) {
+      header .navbar .navbar-nav {
+        flex-direction: row; } }
+    header .navbar .navbar-nav li .dropdown .dropdown-menu.show {
+      position: absolute;
+      top: 33px;
+      right: -6px;
+      left: initial; }
+    header .navbar .navbar-nav li .dropdown a {
+      color: #000;
+      text-decoration: none; }
+
+.sidebar-offcanvas {
+  background-color: #fff;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  transition: 0.5s;
+  box-shadow: 0 0 5px 0 rgba(82, 63, 105, 0.05); }
+  @media (max-width: 991px) {
+    .sidebar-offcanvas {
+      left: -250px; } }
+  .sidebar-offcanvas .navbar-brand {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    margin: 0px auto;
+    padding: 23px 0; }
+    .sidebar-offcanvas .navbar-brand img {
+      max-width: 100%; }
+    .sidebar-offcanvas .navbar-brand .icon-sidebar {
+      color: #000000b8;
+      margin-left: auto; }
+      .sidebar-offcanvas .navbar-brand .icon-sidebar .right {
+        display: none; }
+  .sidebar-offcanvas .sidebar-menu .nav .nav-item .nav-link {
+    color: #000000b8;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 12px; }
+    .sidebar-offcanvas .sidebar-menu .nav .nav-item .nav-link:hover {
+      color: #00000094; }
+    .sidebar-offcanvas .sidebar-menu .nav .nav-item .nav-link i {
+      padding: 6px; }
+    .sidebar-offcanvas .sidebar-menu .nav .nav-item .nav-link .text {
+      padding-left: 10px;
+      font-size: 15px; }
+    .sidebar-offcanvas .sidebar-menu .nav .nav-item .nav-link .right {
+      position: absolute;
+      right: 0; }
+  .sidebar-offcanvas .sidebar-menu .nav .nav-item.active .nav-link {
+    background-color: #f3f3f3; }
+  .sidebar-offcanvas .sidebar-menu .nav .nav-item .innerMenus {
+    padding: 0 0 0 52px;
+    margin: 0 0 15px 0; }
+    .sidebar-offcanvas .sidebar-menu .nav .nav-item .innerMenus li a {
+      color: #000000b8;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 12px; }
+      .sidebar-offcanvas .sidebar-menu .nav .nav-item .innerMenus li a:hover {
+        text-decoration: none; }
+
+.hideUl {
+  display: none; }
+
+@font-face {
+  font-family: 'open_sansbold';
+  src: url("../opensans-bold-webfont.woff2") format("woff2"), url("../fonts/opensans-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansbold_italic';
+  src: url("../fonts/opensans-bolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-bolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansextrabold';
+  src: url("../fonts/opensans-extrabold-webfont.woff2") format("woff2"), url("../fonts/opensans-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansextrabold_italic';
+  src: url("../fonts/opensans-extrabolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-extrabolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansitalic';
+  src: url("../fonts/opensans-italic-webfont.woff2") format("woff2"), url("../fonts/opensans-italic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanslight';
+  src: url("../fonts/opensans-light-webfont.woff2") format("woff2"), url("../fonts/opensans-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanslight_italic';
+  src: url("../fonts/opensans-lightitalic-webfont.woff2") format("woff2"), url("../fonts/opensans-lightitalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("../fonts/opensans-regular-webfont.woff2") format("woff2"), url("../fonts/opensans-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanssemibold';
+  src: url("../fonts/opensans-semibold-webfont.woff2") format("woff2"), url("../fonts/opensans-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'open_sanssemibold_italic';
+  src: url("../fonts/opensans-semibolditalic-webfont.woff2") format("woff2"), url("../fonts/opensans-semibolditalic-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisbold';
+  src: url("../fonts/dosis-bold-webfont.woff2") format("woff2"), url("../fonts/dosis-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisextrabold';
+  src: url("../fonts/dosis-extrabold-webfont.woff2") format("woff2"), url("../fonts/dosis-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisextralight';
+  src: url("../fonts/dosis-extralight-webfont.woff2") format("woff2"), url("../fonts/dosis-extralight-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosislight';
+  src: url("../fonts/dosis-light-webfont.woff2") format("woff2"), url("dosis-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosismedium';
+  src: url("../fonts/dosis-medium-webfont.woff2") format("woff2"), url("dosis-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosisregular';
+  src: url("../fonts/dosis-regular-webfont.woff2") format("woff2"), url("../fonts/dosis-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'dosissemibold';
+  src: url("../fonts/dosis-semibold-webfont.woff2") format("woff2"), url("../fonts/dosis-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+.main-content {
+  padding-left: 250px;
+  padding-top: 114px;
+  transition: all 0.5s; }
+  @media (max-width: 991px) {
+    .main-content {
+      padding-left: 0; } }
+  .main-content.sidebar {
+    padding-left: 80px;
+    transition: all 0.5s; }
+  .main-content .inner-content {
+    min-height: calc(95vh - 28px);
+    background-color: #f3f3f3;
+    padding: 15px; }
+    .main-content .inner-content .heading {
+      background-color: #fff;
+      padding: 10px;
+      border-top: 1px solid #ccc;
+      position: fixed;
+      width: calc(100% - 250px);
+      top: 60px;
+      left: 250px;
+      transition: all 0.5s;
+      z-index: 9; }
+      @media (max-width: 991px) {
+        .main-content .inner-content .heading {
+          width: calc(100% - 0px);
+          left: 0px; } }
+      .main-content .inner-content .heading h1 {
+        font-size: 20px; }
+      .main-content .inner-content .heading .addBtn {
+        position: absolute;
+        top: 7px;
+        right: 15px; }
+        .main-content .inner-content .heading .addBtn a {
+          color: #fff; }
+
+.whiteBg {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px; }
+  .whiteBg h2 {
+    margin: 0 0 23px 0;
+    font-size: 25px; }
+
+.form-group label {
+  display: block; }
+
+.form-group .error {
+  font-size: 13px;
+  color: #bf3b3b;
+  font-weight: 500; }
+
+.form-group .multiselect-native-select .btn-group {
+  width: 100%;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem; }
+  .form-group .multiselect-native-select .btn-group .multiselect {
+    width: 100%;
+    text-align: left; }
+    .form-group .multiselect-native-select .btn-group .multiselect:after {
+      position: absolute;
+      right: 15px;
+      top: 50%;
+      transform: translateY(-50%); }
+  .form-group .multiselect-native-select .btn-group .multiselect-container {
+    width: 100%; }
+    .form-group .multiselect-native-select .btn-group .multiselect-container li a label {
+      padding: 5px; }
+
+.form-group .tagger {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem; }
+  .form-group .tagger ul {
+    padding: 0; }
+    .form-group .tagger ul li {
+      margin: 0.3rem 0;
+      padding: 4px; }
+      .form-group .tagger ul li a {
+        padding: 4px 4px 4px 8px !important;
+        background: #f2f2f2 !important;
+        border: 1px solid #ddd !important;
+        border-radius: 3px !important; }
+        .form-group .tagger ul li a .close {
+          border: 0px !important; }
+
+.btnWrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 15px;
+  margin: 0 0 15px 0;
+  position: relative; }
+  .btnWrapper .image-inner {
+    margin: 0 20px 0 0; }
+  .btnWrapper.hide {
+    display: none; }
+  .btnWrapper .crossIcon {
+    position: absolute;
+    right: 15px;
+    padding: 0 0 0 25px;
+    top: 50%;
+    transform: translateY(-50%); }
+    .btnWrapper .crossIcon i {
+      width: 30px;
+      height: 30px;
+      background: #eee;
+      text-align: center;
+      line-height: 30px;
+      border-radius: 50px;
+      cursor: pointer; }
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden; }
+  .upload-btn-wrapper.hide {
+    display: none; }
+  .upload-btn-wrapper .btn {
+    color: #fff;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #193370; }
+    .upload-btn-wrapper .btn i {
+      padding-right: 10px;
+      font-size: 18px; }
+  .upload-btn-wrapper input[type="file"] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0; }
+
+.blogCard {
+  border: 0 !important;
+  margin: 0 0 15px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  min-height: 100%; }
+  .blogCard .card-header {
+    min-height: auto;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #e2e2e2;
+    color: #000;
+    font-weight: bold; }
+  .blogCard .card-body .value {
+    font-size: 90px;
+    font-weight: bold;
+    color: #000; }
+  .blogCard .card-body .portValues {
+    display: flex;
+    flex-wrap: wrap; }
+    .blogCard .card-body .portValues .portValue {
+      flex: 1 0 48%;
+      background-color: #eee;
+      margin: 5px;
+      padding: 6px 12px;
+      border-radius: 5px;
+      position: relative; }
+      .blogCard .card-body .portValues .portValue .numeric {
+        position: absolute;
+        right: 12px;
+        font-size: 17px;
+        text-align: center; }

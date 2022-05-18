@@ -1,0 +1,43 @@
+header {
+    width: 100%;
+    padding-left: 250px;
+    height: 60px;
+    align-items: center;
+    display: flex!important;
+    justify-content: flex-end;
+    background-color: #fff;
+    @media (max-width: 991px) {
+        padding-left: 0;
+    }
+    .navbar {
+        padding: 0px;
+        .icon-sidebar {
+            display: none;
+            cursor: pointer;
+            @media (max-width: 991px) {
+                display: block;
+            }
+        }
+        .navbar-nav {
+            @media (max-width: 991px) {
+                flex-direction: row;
+            }
+            li {
+                .dropdown {
+                    .dropdown-menu {
+                        &.show {
+                            position: absolute;
+                            top: 33px;
+                            right: -6px;
+                            left: initial;
+                        }
+                    }
+                    a {
+                        color: #000;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

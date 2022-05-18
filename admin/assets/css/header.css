@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  padding-left: 250px;
+  height: 60px;
+  align-items: center;
+  display: flex !important;
+  justify-content: flex-end;
+  background-color: #fff; }
+  @media (max-width: 991px) {
+    header {
+      padding-left: 0; } }
+  header .navbar {
+    padding: 0px; }
+    header .navbar .icon-sidebar {
+      display: none;
+      cursor: pointer; }
+      @media (max-width: 991px) {
+        header .navbar .icon-sidebar {
+          display: block; } }
+    @media (max-width: 991px) {
+      header .navbar .navbar-nav {
+        flex-direction: row; } }
+    header .navbar .navbar-nav li .dropdown .dropdown-menu.show {
+      position: absolute;
+      top: 33px;
+      right: -6px;
+      left: initial; }
+    header .navbar .navbar-nav li .dropdown a {
+      color: #000;
+      text-decoration: none; }
