@@ -304,7 +304,7 @@ if (isset($_POST['submit'])) {
                                         <div class="col-sm-12">
                                             <div class="form-group">
                                                 <label>Description</label>
-                                                <textarea class="ckeditor" name="fs_description" id="fs_description" required><?php echo $fs_description ?></textarea>
+                                                <textarea name="fs_description" id="fs_description" required><?php echo $fs_description ?></textarea>
                                             </div>
                                         </div>
                                         <div class="col-sm-12">
@@ -343,7 +343,7 @@ if (isset($_POST['submit'])) {
                                         <div class="col-sm-12">
                                             <div class="form-group">
                                                 <label>Description</label>
-                                                <textarea class="ckeditor" name="editor1" id="editor1" required><?php echo $ss_description ?></textarea>
+                                                <textarea  name="editor1" id="editor1" required><?php echo $ss_description ?></textarea>
                                             </div>
                                             </div>
                                         <div class="col-sm-12">
@@ -409,12 +409,20 @@ if (isset($_POST['submit'])) {
     </div>
     <!---->
     <?php include_once('common/commonjs.php'); ?>
-    <script src="https://cdn.ckeditor.com/4.16.2/standard/ckeditor.js"></script>
+    <script src="<?php echo $url; ?>admin/assets/js/ckeditor/ckeditor.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
     <script src="assets/js/bootstrap-multiselect.js"></script>
     <script>
         $(document).ready(function() {
+            CKEDITOR.replace('editor1', {
+                extraPlugins: 'uploadimage',
+
+                filebrowserImageUploadUrl: '<?php echo $url; ?>upload?command=QuickUpload&type=Images',
+
+                  
+                  removeButtons: 'PasteFromWord'
+            });
             CKEDITOR.instances.editor1.on('change', function() {
                 if (CKEDITOR.instances.editor1.getData().length > 0) {
                     $('label[for="editor1"]').hide();
@@ -422,9 +430,14 @@ if (isset($_POST['submit'])) {
                     $('label[for="editor1"]').show();
                 }
             });
-        });
+            CKEDITOR.replace('fs_description', {
+                extraPlugins: 'uploadimage',
 
-        $(document).ready(function() {
+                filebrowserImageUploadUrl: '<?php echo $url; ?>upload?command=QuickUpload&type=Images',
+
+                  
+                  removeButtons: 'PasteFromWord'
+            });
             CKEDITOR.instances.fs_description.on('change', function() {
                 if (CKEDITOR.instances.fs_description.getData().length > 0) {
                     $('label[for="fs_description"]').hide();
@@ -434,9 +447,6 @@ if (isset($_POST['submit'])) {
             });
         });
 
-        $(window).on('load', function() {
-            CKEDITOR.replace('editor1');
-        });
 
         $(document).ready(function() {
             $('#example-getting-started').multiselect();
@@ -532,15 +542,7 @@ if (isset($_POST['submit'])) {
   
     <script src="https://unpkg.com/@jcubic/tagger@0.x.x/tagger.js"></script>
     <script>
-        var input = document.querySelector('[name="seo_keyword"]');
-        var seo_keyword = tagger(input, {
-            allow_duplicates: false,
-            allow_spaces: true,
-            wrap: true,
-            completion: {
-                list: []
-            }
-        });
+        
         file_list = null;
         <?php
             if(!empty($image)){
