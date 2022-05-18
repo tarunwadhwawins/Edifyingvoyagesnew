@@ -1,9 +1,3 @@
-<?php
-$page_title = 'Portfolio';
-$page_keyword  = '';
-$page_description  = ' ';
-$page_canonical  = '';
-?>
 <!---->
 <?php include_once('common/layout-header.php'); ?>
 <!---->

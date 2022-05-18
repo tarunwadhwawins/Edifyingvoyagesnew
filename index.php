@@ -1,9 +1,3 @@
-<?php 
-	$page_title = 'Welcome to EV';
-	$page_keyword  = 'testing';
-	$page_description  = ' test';
-    $page_canonical  = '';		
-?>
 <!---->
 <?php include_once('common/layout-header.php'); ?>
 <!---->
