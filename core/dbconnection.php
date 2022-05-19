@@ -8,9 +8,9 @@ session_start();
 
 // For Local
 $servername = "localhost";
-$username = "ditsdev";
-$password = "password";
-$dbname = "evDB";
+$username = "root";
+$password = "";
+$dbname = "Edifyingdb";
 $url = "http://localhost/Edifyingvoyagesnew/";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

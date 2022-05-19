@@ -61,10 +61,18 @@
   visibility: visible;
   bottom: calc(100% + 5px);
 }
+.footer-section .footer-bottom {
+  background-color: #022344;
+}
 .footer-section .footer-bottom .copyright-text {
-  font-size: 13px;
+  font-size: 12px;
+  color: #fff;
+}
+.footer-section .footer-bottom .copyright-text a {
+  color: #fff;
 }
 .footer-section .footer-bottom .social-list li a {
   padding: 6px 10px;
-  font-size: 13px;
+  font-size: 12px;
+  color: #fff;
 }

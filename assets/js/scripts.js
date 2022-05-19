@@ -252,6 +252,18 @@ jQuery(function ($) {
     items: 1,
   });
 
+  $('.portfolio-testimonial-1').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: false,
+    responsiveClass: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    lazyLoad: true,
+    items: 1,
+  });
+
   $('.client-testimonial').owlCarousel({
     loop: true,
     margin: 30,

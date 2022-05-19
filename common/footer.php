@@ -12,20 +12,24 @@
                                     <div class="social-nav mt-4">
                                         <ul class="list-unstyled social-list mb-0">
                                             <li class="list-inline-item tooltip-hover">
-                                                <a href="#" class="rounded"><span class="ti-facebook"></span></a>
+                                                <a href="https://www.facebook.com/edifyingvoyages/" target="_blank" class="rounded"><span class="ti-facebook"></span></a>
                                                 <div class="tooltip-item">Facebook</div>
                                             </li>
-                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                            <li class="list-inline-item tooltip-hover"><a href="https://twitter.com/edifyingv" target="_blank" class="rounded"><span
                                                     class="ti-twitter"></span></a>
                                                 <div class="tooltip-item">Twitter</div>
                                             </li>
-                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
+                                            <li class="list-inline-item tooltip-hover"><a href="https://www.linkedin.com/company/edifying-voyages/" target="_blank" class="rounded"><span
                                                     class="ti-linkedin"></span></a>
                                                 <div class="tooltip-item">Linkedin</div>
                                             </li>
-                                            <li class="list-inline-item tooltip-hover"><a href="#" class="rounded"><span
-                                                    class="ti-dribbble"></span></a>
-                                                <div class="tooltip-item">Dribbble</div>
+                                            <li class="list-inline-item tooltip-hover"><a href="https://www.youtube.com/channel/UCnGA56JPSWnAUtyt0epmZpg" target="_blank" class="rounded"><span
+                                                    class="ti-youtube"></span></a>
+                                                <div class="tooltip-item">Youtube</div>
+                                            </li>
+                                            <li class="list-inline-item tooltip-hover"><a href="https://www.instagram.com/edifyingvoyages/" target="_blank" class="rounded"><span
+                                                    class="ti-instagram"></span></a>
+                                                <div class="tooltip-item">Instagram</div>
                                             </li>
                                         </ul>
                                     </div>
@@ -33,19 +37,19 @@
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">COMPANY</h4>
+                                    <h4 class="text-white text-uppercase">Links</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">About Our Services</a>
+                                            <a class="nav-link" href="#">SEO Chandigarh</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Our Affiliates Program</a>
+                                            <a class="nav-link" href="#">SEO Montana</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">View Our Blog</a>
+                                            <a class="nav-link" href="#">SEO Surrey</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Check Our Careers</a>
+                                            <a class="nav-link" href="#">Careers</a>
                                         </li>
                                     </ul>
 
@@ -53,19 +57,19 @@
                             </div>
                             <div class="col-md-4 col-sm-6">
                                 <div class="footer-nav-wrap text-white">
-                                    <h4 class="text-white">LEGAL</h4>
+                                    <h4 class="text-white text-uppercase">Services</h4>
                                     <ul class="nav flex-column">
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Legal Information</a>
+                                            <a class="nav-link" href="#">SEO</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Privacy Policy</a>
+                                            <a class="nav-link" href="#">PPC</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Report Abuse</a>
+                                            <a class="nav-link" href="#">Social Media</a>
                                         </li>
                                         <li class="nav-item">
-                                            <a class="nav-link" href="#">Terms of Service</a>
+                                            <a class="nav-link" href="#">Graphic Designing</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -99,7 +103,7 @@
                 </div>
             </div>
         </div>
-        <div class="footer-bottom gray-light-bg py-2">
+        <div class="footer-bottom py-2">
             <div class="container-xl">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-md-5 col-lg-5">

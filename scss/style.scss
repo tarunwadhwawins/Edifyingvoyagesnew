@@ -1,7 +1,7 @@
 /*----*/
 .hero-slider-content {
     h1 {
-        font-size: 40px;
+        font-size:35px;
         line-height: initial;
         font-weight: 700;
     }
@@ -86,9 +86,13 @@
 
 // tabs section //
 
-.outstanding-section {
+.portfolio-section {
     .feature-tabs-wrap {
         margin-top: 30px;
+        background-color: hsl(0, 0%, 100%);
+        box-shadow: 0 0 62px hsl(0deg 0% 0% / 12%);
+        padding: 40px;
+        width: 100%;
         .feature-tabs {
             margin-bottom: 25px;
             li {
@@ -101,8 +105,8 @@
                     border-left: 0 !important;
                     color: var(--black-color) !important;
                     &.active {
-                        color: var(--primary-color) !important;
-                        background-color: #efefef;
+                        color: var(--white-color) !important;
+                        background-color: var(--primary-color);
                     }
                     h6 {
                         font-size: 13px;
@@ -114,10 +118,65 @@
             }
         }
         .feature-tab-content {
-            .why-choose-us-wrap {
-                .list-with-icon {
-                    li {
-                        margin-bottom: 20px;
+            .portfolio-content {
+                .portfolio-wrapper {
+                    display: flex;
+                    justify-content: space-between;
+                    .portfolio-left {
+                        margin-right: 50px;
+                        width: 60%;
+                        .portfolio-image {
+                            padding:5px;
+                            img {
+                                box-shadow: 0 3px 20px 0 rgb(0 0 0 / 12%);
+                            }
+                        }
+                    }
+                    .portfolio-right {
+                        width: 35%;
+                        max-height: 100%;
+                        min-height: 100%;
+                        .portfolio-desc {
+                            background-color: hsl(180, 20%, 97%);
+                            color: hsl(0, 0%, 0%);
+                            padding: 30px 25px;
+                            width: 100%;
+                            height: 100%;
+                            h4 {
+                                font-size: 21px;
+                                letter-spacing: 0.2px;
+                                line-height: 24px;
+                                color: #000;
+                                width: 100%;
+                            }
+                            h5 {
+                                color: hsl(0, 0%, 0%);
+                                letter-spacing: 0.2px;
+                                line-height: 24px;
+                                position: relative;
+                                margin-top: 8px;
+                                font-size:14px;
+                            }
+                            p {
+                                color: hsl(0, 0%, 44%);
+                                font-size: 13px;
+                                letter-spacing: 0.6px;
+                                margin-top:20px;
+                            }
+                            .portfolio-title {
+                                color: #000;
+                                font-size: 13px;
+                                letter-spacing: 0.6px;
+                                line-height: 20px;
+                                margin-top: 11px;
+                            }
+                            .portfolio-name {
+                                color: #707070;
+                                font-size: 13px;
+                                letter-spacing: 0.6px;
+                                line-height: 20px;
+                            }
+                        }
                     }
                 }
             }
@@ -207,9 +266,7 @@
         }
     }
 }
-
 //service section //
-
 .services-single {
     transition: all 0.3s ease-in;
     position: relative;
@@ -242,7 +299,37 @@
         }
     }
 }
-
+.enquireDesc {
+    padding: 30px 15px;
+    text-align: center;
+    background: var(--primary-color);
+    box-shadow: 0 0 15px rgb(0 0 0 / 30%);
+    width: 100%;
+    h3 {
+        color: #fff;
+        letter-spacing: 1px;
+        font-size: 35px;
+        margin: 0 0 10px 0;
+    }
+    p {
+        color: #fff;
+        margin: 0 0 40px 0;
+        font-style: italic;
+        a {
+            color: #fff;
+            position: relative;
+            &::before {
+                border-top: 1px solid #ffffff;
+                bottom: -6px;
+                content: "";
+                position: absolute;
+                width: 100%;
+                transition: all 0.55s ease 0s;
+                -webkit-transition: all 0.55s ease 0s;
+            }
+        }
+    }
+}
 // about inner section //
 .about-section {
     position: relative;

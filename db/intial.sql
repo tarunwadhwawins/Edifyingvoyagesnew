@@ -159,7 +159,7 @@ CREATE TABLE `portfolio_order` (
   `category_id` int NOT NULL,
   `tag_id` varchar(255) NOT NULL,
   `position` int NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 ;
 
 -- --------------------------------------------------------
 
@@ -275,7 +275,7 @@ ALTER TABLE `portfolio_order`
 -- AUTO_INCREMENT for table `tags`
 --
 ALTER TABLE `tags`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

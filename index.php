@@ -10,8 +10,8 @@
                 <div class="col-md-12 col-lg-5">
                     <div class="hero-slider-content text-white pt-5">
                         <strong>Digital Marketing</strong>
-                        <h1 class="text-white">Grow Your Business With Edigying Voyages</h1>
-                        <p class="lead">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <h1 class="text-white">Build Your Brand with Leading Digital Marketing Agency</h1>
+                        <p>Edifying Voyage is a creative digital marketing company that supports brands' glitter while transforming the businesses digitally for new growth opportunities.</p>
                         <div class="action-btns mt-3">
                             <a href="#" class="btn outline-white-btn">Start Now</a>
                         </div>
@@ -35,8 +35,8 @@
                             <div class="circle-icon">
                                 <span class="ti-music-alt text-white"></span>
                             </div>
-                            <h5>Market Research</h5>
-                            <p>Increase sales by showing true dynamics of your website.</p>
+                            <h5>Guaranteed Growth</h5>
+                            <p>Helping businesses to grow with our years of experience that converts them more customers</p>
                         </div>
                     </a>
                 </div>
@@ -46,8 +46,8 @@
                             <div class="circle-icon">
                                 <span class="ti-dashboard text-white"></span>
                             </div>
-                            <h5>Content Marketing</h5>
-                            <p>Build your online store’s trust using Social Proof &amp; Urgency.</p>
+                            <h5>Dedicated Team</h5>
+                            <p>Dedicated Team to Plan and Develop the roadmap to delivery best outcomes</p>
                         </div>
                     </a>
                 </div>
@@ -57,8 +57,8 @@
                             <div class="circle-icon">
                                 <span class="ti-headphone-alt text-white"></span>
                             </div>
-                            <h5>Email Marketing</h5>
-                            <p>Realize importance of social proof in customer’s purchase decision.</p>
+                            <h5>Brand Building</h5>
+                            <p>Building brands with creative thinking/ideation to open the doors for better growth.</p>
                         </div>
                     </a>
                 </div>
@@ -78,11 +78,11 @@
                 <div class="col-md-6 col-lg-6">
                     <div class="about-us-content-wrap">
                         <strong class="color-secondary">About Us</strong>
-                        <h3>Grow Your Business With Experienced SEO Experts</h3>
+                        <h3>Why We are Best Digital Marketing Consultants?</h3>
                         <span class="animate-border mb-4"></span>
-                        <p>Globally transition proactive niches without progressive processes. Objectively syndicate
-                            enterprise-wide services through timely metrics. </p>
-                        <ul class="list-unstyled tech-feature-list">
+                        <p>What makes us diverse from other computerized showcasing organizations is the truth that we cut the fluff. Everything we do is done from a business owner’s viewpoint and is straightforwardly tied to making strides in your web approach. Your methodologies are established in information and analytics and we have the mastery and innovation to tell you what’s working and what’s not. </p>
+                        <p>We’ve alliance with hundreds of small, medium, and venture businesses to urge the come about they need through comprehensive, cohesive computerized showcasing campaigns. Our workers see the world through the eyes of a commerce proprietor and use analytics and information to showcase our clients’ businesses as if they were our possessions. If you’re seeking out a marketing partner that serves as your de facto VP of promoting, increments, leads, and differentiates your brand within the commercial center and optimize showcasing costs, you’ve found your people.</p>
+                        <!-- <ul class="list-unstyled tech-feature-list">
                             <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Creative</strong>
                                 Websites Design
                             </li>
@@ -124,7 +124,7 @@
                                     <strong>Total Project</strong>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="action-btns mt-4">
                             <a href="#" class="btn secondary-solid-btn me-3">Start Now</a>
                             <a href="#" class="btn secondary-outline-btn">Learn More</a>
@@ -155,7 +155,7 @@
                 <div class="col-md-8">
                     <div class="section-heading text-center mb-5">
                         <strong class="color-secondary">Our Services</strong>
-                        <h2>What Can We Do For You</h2>
+                        <h2>Our Digital Marketing Expertise</h2>
                         <span class="animate-border me-auto ms-auto mb-4"></span>
                         <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas.
                             Dynamically
@@ -167,7 +167,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Digital Marketing</h5>
+                        <h5>SEO</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -176,7 +176,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Content Marketing</h5>
+                        <h5>Pay Per Click (PPC)</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -194,7 +194,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                        <h5>SEO Services</h5>
+                        <h5>eCommerce SEO</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -203,7 +203,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Email Marketing</h5>
+                        <h5>Adwords Management</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -212,7 +212,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Creative Consultancy</h5>
+                        <h5>Graphic Designing</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -221,8 +221,19 @@
             </div>
         </div>
     </section>
+    <section class="enquireDesc ptb-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                        <h3>WANT MORE SALES?</h3>
+                        <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
+                        <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
     <!---->
-    <section class="call-to-action ptb-70 primary-bg">
+    <!-- <section class="call-to-action ptb-70 primary-bg">
         <div class="container-xl">
             <div class="row  justify-content-center">
                 <div class="col-md-10 col-lg-9">
@@ -235,15 +246,15 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!---->
-    <section class="outstanding-section ptb-100">
+    <section class="portfolio-section ptb-100 gray-light-bg">
         <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-9 col-lg-8">
                     <div class="section-heading text-center mb-1">
-                        <strong class="color-secondary">Our Expertise</strong>
-                        <h2>Outstanding Experience</h2>
+                        <strong class="color-secondary">Our Work</strong>
+                        <h2>Some of our Past Work that We like.</h2>
                         <span class="animate-border me-auto ms-auto mb-4"></span>
                         <p class="lead">Distinctively grow go forward manufactured products and optimal networks.
                             Enthusiastically
@@ -254,235 +265,124 @@
             <div class="row">
                 <div class="col-md-12 col-lg-12">
                     <div class="feature-tabs-wrap">
-                        <ul class="nav nav-tabs border-bottom-0 feature-tabs feature-tabs-center d-flex justify-content-center" data-tabs="tabs">
+                        <ul class="nav nav-tabs feature-tabs feature-tabs-center d-flex" data-tabs="tabs">
                             <li class="nav-item">
-                                <a class="nav-link text-center" href="#feature-tab-1" data-bs-toggle="tab">
-                                    <span class="ti-announcement icon-sm"></span>
-                                    <h6 class="mb-0">Digital Marketing</h6>
+                                <a class="nav-link text-center active" href="#feature-tab-1" data-bs-toggle="tab">
+                                    <h6 class="mb-0">Logo</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-center" href="#feature-tab-2" data-bs-toggle="tab">
-                                    <span class="ti-light-bulb icon-sm"></span>
-                                    <h6 class="mb-0">SEO Services</h6>
+                                    <h6 class="mb-0">Graphics</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-center active" href="#feature-tab-3" data-bs-toggle="tab">
-                                    <span class="ti-email icon-sm"></span>
-                                    <h6 class="mb-0">Email Marketing</h6>
+                                <a class="nav-link text-center " href="#feature-tab-3" data-bs-toggle="tab">
+                                    <h6 class="mb-0">Websites</h6>
                                 </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-center" href="#feature-tab-4" data-bs-toggle="tab">
-                                    <span class="ti-shield icon-sm"></span>
-                                    <h6 class="mb-0">Social Media</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="#feature-tab-5" data-bs-toggle="tab">
-                                    <span class="ti-vector icon-sm"></span>
-                                    <h6 class="mb-0">Web Design</h6>
+                                    <h6 class="mb-0">CMS</h6>
                                 </a>
                             </li>
                         </ul>
                         <div class="tab-content feature-tab-content">
-                            <div class="tab-pane mt-5" id="feature-tab-1">
+                            <div class="tab-pane active mt-5" id="feature-tab-1">
                                 <div class="row justify-content-around">
-                                    <div class="col-md-12 col-lg-5">
-                                        <div class="about-content-right mb-md-4 mb-lg-0 my-md-3 my-lg-3 my-sm-0">
-                                            <p>Objectively productivate installed base technology whereas user friendly
-                                                ROI.
-                                                Phosfluorescently innovate functionalized potentialities revolutionize
-                                                client-based applications.</p>
+                                    <div class="col-md-12">
+                                        <div class="portfolio-content">
+                                            <div class="owl-carousel owl-theme portfolio-testimonial-1">
+                                                <div class="item">
+                                                    <div class="portfolio-wrapper">
+                                                        <div class="portfolio-left">
+                                                            <div class="portfolio-image">
+                                                                <img src="assets/images/portfolio/logos/portfolio-logo1.jpg" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-right">
+                                                            <div class="portfolio-desc">
+                                                                <h4>Esthetic Planners</h4>
+                                                                <h5>Logo Design</h5>
+                                                                <span class="animate-border mb-4"></span>
+                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
+                                                                <div class="portfolio-title">Website</div>
+                                                                <div class="portfolio-name "><a href="https://www.estheticplanners.com/" target="_blank">Esthetic Planners</a></div>
 
-                                            <p>Holisticly utilize emerging leadership skills whereas multifunctional
-                                                customer service. Energistically functional bandwidth without granular
-                                                mindshare. Monotonectally visualize user-centric methodologies
-                                                low-risk.</p>
+                                                                <div class="portfolio-title">Country</div>
+                                                                <div class="portfolio-name ">India</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="portfolio-wrapper">
+                                                        <div class="portfolio-left">
+                                                            <div class="portfolio-image">
+                                                                <img src="assets/images/portfolio/logos/portfolio-logo2.jpg" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-right">
+                                                            <div class="portfolio-desc">
+                                                                <h4>Staffpot</h4>
+                                                                <h5>Logo Design</h5>
+                                                                <span class="animate-border mb-4"></span>
+                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
+                                                                <div class="portfolio-title">Website</div>
+                                                                <div class="portfolio-name "><a href="https://www.indianarthroscopy.com/" target="_blank">Staffpot</a></div>
 
-                                            <ul class="list-unstyled tech-feature-list">
-                                                <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Corporate</strong>
-                                                    Cash Management
-                                                </li>
-                                                <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>SEO</strong>
-                                                    Optimization Services
-                                                </li>
-                                                <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Company</strong>
-                                                    Brand Solutions
-                                                </li>
-                                            </ul>
+                                                                <div class="portfolio-title">Country</div>
+                                                                <div class="portfolio-name ">India</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="item">
+                                                    <div class="portfolio-wrapper">
+                                                        <div class="portfolio-left">
+                                                            <div class="portfolio-image">
+                                                                <img src="assets/images/portfolio/logos/portfolio-logo3.jpg" alt="image" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-right">
+                                                            <div class="portfolio-desc">
+                                                                <h4>Indian Arthroscopy</h4>
+                                                                <h5>Logo Design</h5>
+                                                                <span class="animate-border mb-4"></span>
+                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
+                                                                <div class="portfolio-title">Website</div>
+                                                                <div class="portfolio-name "><a href="https://www.indianarthroscopy.com/" target="_blank">Indian Arthroscopy</a></div>
 
-                                            <a href="#" class="mt-4 btn secondary-solid-btn">Contact With Us</a>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12 col-lg-6">
-                                        <div class="img-wrap my-md-3 my-lg-3 my-sm-0">
-                                            <img src="assets/images/about-1.jpg" alt="about" class="img-fluid rounded shadow-sm">
+                                                                <div class="portfolio-title">Country</div>
+                                                                <div class="portfolio-name ">India</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="item">111</div>  -->
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane mt-5" id="feature-tab-2">
-                                <div class="row align-items-center justify-content-between">
-                                    <div class="col-md-6 col-lg-5">
-                                        <div class="why-choose-us-wrap">
-                                            <h3>Best Consulting Every For Business</h3>
-                                            <p>Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                                                network accurate methods of empowerment rather than client-centered improvements.</p>
-                                            <ul class="list-with-icon">
-                                                <li class="d-flex align-items-start">
-                                                    <img src="assets/images/increase.svg" width="35" class="me-3" alt="list icon">
-                                                    <div class="list-icon-info">
-                                                        <strong>Increased Traffic</strong>
-                                                        <p>Conveniently provide access to diverse sources vis-a-vis team building customer service. </p>
-                                                    </div>
-                                                </li>
-                                                <li class="d-flex align-items-start">
-                                                    <img src="assets/images/search-engine.svg" width="35" class="me-3" alt="list icon">
-                                                    <div class="list-icon-info">
-                                                        <strong>Site Optimisation</strong>
-                                                        <p>Efficiently fashion ethical customer service with highly efficient methods of empowerment. </p>
-                                                    </div>
-                                                </li>
-                                                <li class="d-flex align-items-start">
-                                                    <img src="assets/images/interface.svg" width="35" class="me-3" alt="list icon">
-                                                    <div class="list-icon-info">
-                                                        <strong>Page Rankings</strong>
-                                                        <p>Quickly fashion high-quality innovation for cutting-edge sources assertively reinvent inexpensive. </p>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6">
-                                        <div class="image-wrap">
-                                            <img src="assets/images/t6-hero-img1.svg" alt="why choose us" class="img-fluid">
-                                        </div>
+                                <div class="row justify-content-around">
+                                    <div class="col-md-12">
+                                        2
                                     </div>
                                 </div>
                             </div>
-                            <div class="tab-pane active mt-5" id="feature-tab-3">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="image-wrap">
-                                            <img src="assets/images/tab-img.png" alt="email" class="img-fluid m-auto">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="content-wrap">
-                                            <h3>Grow Your Business With Experienced SEO Experts</h3>
-                                            <p>Intrinsicly recaptiualize alternative internal or "organic" sources for
-                                                inexpensive outsourcing. Monotonectally create sustainable applications
-                                                before premier vortals. Holisticly productivate stand-alone value and
-                                                cost effective users. </p>
-                                            <p>Holisticly syndicate cooperative ideas after pandemic human capital.
-                                                Professionally provide access to bricks-and-clicks functionalities for
-                                                visionary customer service. Completely reconceptualize cross-media data
-                                                for frictionless architectures. </p>
-
-                                            <div class="action-btns mt-4">
-                                                <a href="#" class="btn secondary-solid-btn me-3">Start Now</a>
-                                                <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                                            </div>
-                                        </div>
+                            <div class="tab-pane  mt-5" id="feature-tab-3">
+                                <div class="row justify-content-around">
+                                    <div class="col-md-12">
+                                        3
                                     </div>
                                 </div>
                             </div>
                             <div class="tab-pane mt-5" id="feature-tab-4">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="content-wrap">
-                                            <h3>Grow Your Business With Experienced SEO Experts</h3>
-                                            <p>Intrinsicly recaptiualize alternative internal or "organic" sources for
-                                                inexpensive outsourcing. Monotonectally create sustainable applications
-                                                before premier vortals. Holisticly productivate stand-alone value and
-                                                cost effective users. </p>
-                                            <p>Holisticly syndicate cooperative ideas after pandemic human capital.
-                                                Professionally provide access to bricks-and-clicks functionalities for
-                                                visionary customer service. Completely reconceptualize cross-media data
-                                                for frictionless architectures. </p>
-
-                                            <div class="action-btns mt-4">
-                                                <a href="#" class="btn secondary-solid-btn me-3">Start Now</a>
-                                                <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="image-wrap text-center">
-                                            <img src="assets/images/tab-img.png" alt="email" class="img-fluid m-auto">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane mt-5" id="feature-tab-5">
-                                <div class="row">
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>Marketing Services</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>Total SEO Services</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>24/7 Call Center Service</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>Social Media Marketing</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>Corporate Business</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 col-md-6 col-sm-6">
-                                        <div class="services-single p-5 my-md-3 my-lg-3 my-sm-0 white-bg shadow-sm rounded">
-                                            <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                                            <h5>Creative Consultancy</h5>
-                                            <p class="mb-0">Progressively empower business "outside the box" thinking
-                                                with resource-leveling
-                                                partnerships.</p>
-                                            <a href="services-details" target="_blank" class="detail-link mt-4">Read
-                                                more <span class="ti-arrow-right"></span></a>
-                                        </div>
+                                <div class="row justify-content-around">
+                                    <div class="col-md-12">
+                                        4
                                     </div>
                                 </div>
                             </div>
@@ -493,12 +393,12 @@
         </div>
     </section>
     <!---->
-    <section class="testimonial-section ptb-100" style="background: url('assets/images/testimonial-bg.png')no-repeat center center / cover">
+    <section class="testimonial-section ptb-100">
         <div class="container-xl">
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-5">
-                    <div class="testimonial-heading text-white">
-                        <h2 class="text-white">What Our Client Say About Us</h2>
+                    <div class="testimonial-heading">
+                        <h2>What Our Client Say About Us</h2>
                         <span class="animate-border mb-4"></span>
                         <p>Collaboratively actualize excellent schemas without effective models. Synergistically
                             engineer functionalized applications rather than backend e-commerce.</p>

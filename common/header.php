@@ -6,7 +6,7 @@
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><span class="fas fa-headphones-alt me-1"></span> 24x7 Technical Support</li>
+                            <li class="list-inline-item"><span class="fas fa-envelope me-1"></span>info@edifyingvoyages.com</li>
                             <li class="list-inline-item"><span class="fas fa-phone-alt me-1"></span>708-708-7356</li>
                         </ul>
                     </div>
@@ -15,16 +15,19 @@
                     <div class="topbar-text text-white">
                         <ul class="list-inline text-md-end text-lg-end text-start  mb-0">
                             <li class="list-inline-item">
-                                <a href="#" class="rounded"><span class="fab fa-facebook-f"></span></a>
+                                <a href="https://www.facebook.com/edifyingvoyages/" target="_blank" class="rounded"><span class="fab fa-facebook-f"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
+                            <li class="list-inline-item"><a href="https://twitter.com/edifyingv" target="_blank" class="rounded"><span
                                     class="fab fa-twitter"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/edifying-voyages/" target="_blank" class="rounded"><span
                                     class="fab fa-linkedin-in"></span></a>
                             </li>
-                            <li class="list-inline-item"><a href="#" class="rounded"><span
-                                    class="fab fa-dribbble"></span></a>
+                            <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCnGA56JPSWnAUtyt0epmZpg" target="_blank" class="rounded"><span
+                                    class="fab fa-youtube"></span></a>
+                            </li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/edifyingvoyages/" target="_blank" class="rounded"><span
+                                    class="fab fa-instagram"></span></a>
                             </li>
                         </ul>
                     </div>
@@ -80,6 +83,8 @@
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="blog">Blogs</a></li>
                     <li><a href="contact-us">Contact Us</a></li>
+                    <li><a href="#" class="btn btn-primary opacity-1">Get Free Proposal</a></li>
+                   
                 </ul>
             </div>
         </div>
