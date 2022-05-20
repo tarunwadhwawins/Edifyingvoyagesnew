@@ -20,6 +20,11 @@
                                 </div>
                             </div>
                             <div class="col-12">
+                                    <div class="form-group mb-4">
+                                        <input type="phone" class="form-control" name="phone" placeholder="Enter Phone No" required="required">
+                                    </div>
+                                </div>
+                            <div class="col-12">
                                 <div class="form-group mb-4">
                                     <select class="form-control">
                                         <option value="Choose Services" selected>Choose Services</option>

@@ -175,6 +175,10 @@ b {
   border-radius: 15px;
 }
 
+.rounded {
+  border-radius: 0.25rem !important;
+}
+
 .gray-light-bg {
   background: var(--light-grey);
 }
@@ -276,6 +280,11 @@ b {
   box-shadow: none;
 }
 
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--white-color) !important;
+}
+
 .hover-grow {
   transform: perspective(1px) translateZ(0);
 }
@@ -289,15 +298,6 @@ b {
 
 .custom-shadow {
   box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.12);
-}
-
-.rounded {
-  border-radius: 0.25rem !important;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  color: var(--white-color) !important;
 }
 
 .opacity-1 {

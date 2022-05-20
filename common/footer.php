@@ -34,7 +34,7 @@
                                  <div class="footer-nav-wrap text-white">
                                      <h4 class="text-white text-uppercase">Links</h4>
                                      <ul class="nav flex-column">
-                                         <li class="nav-item">
+                                         <li class="nav-item tooltip-hover">
                                              <a class="nav-link" href="#">SEO Chandigarh</a>
                                          </li>
                                          <li class="nav-item">
