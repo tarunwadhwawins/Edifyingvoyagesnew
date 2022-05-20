@@ -6,8 +6,8 @@
                 <div class="col-md-7 col-lg-7 d-none d-md-block d-lg-block">
                     <div class="topbar-text text-white">
                         <ul class="list-inline">
-                            <li class="list-inline-item"><span class="fas fa-envelope me-1"></span>info@edifyingvoyages.com</li>
-                            <li class="list-inline-item"><span class="fas fa-phone-alt me-1"></span>708-708-7356</li>
+                            <li class="list-inline-item"><span class="fas fa-envelope me-1"></span><a href="mailto:info@edifyingvoyages.com">info@edifyingvoyages.com</a></li>
+                            <li class="list-inline-item"><span class="fas fa-phone-alt me-1"></span><a href="tel:+91-708-708-7356">+91-708-708-7356</a></li>
                         </ul>
                     </div>
                 </div>
@@ -83,7 +83,7 @@
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="blog">Blogs</a></li>
                     <li><a href="contact-us">Contact Us</a></li>
-                    <li><a href="#" class="btn btn-primary opacity-1">Get Free Proposal</a></li>
+                    <li><a href="request-for-proposal" class="btn btn-primary opacity-1">Get Free Proposal</a></li>
                    
                 </ul>
             </div>

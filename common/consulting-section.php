@@ -60,20 +60,15 @@
                 <div class="contact-us-content">
                     <h2>Looking for a excellent Business idea?</h2>
                     <p class="lead">Seamlessly deliver pandemic e-services and next-generation initiatives.</p>
-
-                    <a href="#" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
-
-                    <hr class="my-5">
-
-                    <h5>Our Headquarters</h5>
+                    <a href="https://goo.gl/maps/ULXDGuz1payrVTaL7" target="_blank" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
+                    <hr class="my-3">
+                    <h5>Contact Us</h5>
                     <address>
-                        100 yellow house, Mn <br>
-                        Factory, United State, 13420
+                          3181 Sector 37-D, <br/> Chandigarh, 160036
                     </address>
                     <br>
-                    <span>Phone: +1234567890123</span> <br>
-                    <span>Email: <a href="mailto:email@yourdomain.com" class="link-color">email@yourdomain.com</a></span>
-
+                    <span>Phone: <a href="tel:+91-708-708-7356">+91-708-708-7356</a></span> <br>
+                    <span>Email: <a href="mailto:info@edifyingvoyages.com" class="link-color">info@edifyingvoyages.com</a></span>
                 </div>
             </div>
         </div>

@@ -225,7 +225,7 @@
 }
 .testimonial-section .testimonial-content-wrap .testimonial-shape .owl-dots button {
   border-radius: 100%;
-  border: 1px dashedvar(--primary-color);
+  border: 1px dashed var(--accent-color);
   margin: 0 4px;
 }
 .testimonial-section .testimonial-content-wrap .testimonial-shape .owl-dots button span {
@@ -236,7 +236,10 @@
   transition: opacity 0.2s ease;
   border-radius: 30px;
   margin: 2px;
-  background: var(--white-color);
+  background: var(--accent-color);
+}
+.testimonial-section .testimonial-content-wrap .testimonial-shape .owl-dots button.active {
+  border: 1px dashed var(--primary-color);
 }
 .testimonial-section .testimonial-content-wrap .testimonial-shape .owl-dots button.active span {
   background: var(--primary-color);
@@ -614,4 +617,21 @@
   font-size: 10px !important;
   color: #222;
   font-weight: 500;
+}
+
+.contact-us-section .contact-us-content h5 {
+  font-size: 14px;
+  line-height: 30px;
+}
+.contact-us-section .contact-us-content ul li {
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+.contact-us-section .contact-us-content ul li a {
+  color: var(--black-color);
+  transition: all 0.3s ease-in-out 0s;
+}
+.contact-us-section .contact-us-content ul li a:hover {
+  color: var(--primary-color);
 }
