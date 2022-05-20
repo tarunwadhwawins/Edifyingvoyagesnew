@@ -83,30 +83,53 @@
                 <div class="col-md-6">
                     <div class="contact-us-form gray-light-bg rounded p-5">
                         <h4>Ready to get started?</h4>
-                        <form action="" method="POST" id="contactForm" class="contact-us-form">
-                            <div class="form-row">
-                                <div class="col-12">
-                                    <div class="form-group mb-4">
-                                        <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mb-4">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group mb-4">
-                                        <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <button type="submit" class="btn secondary-solid-btn  mt-3" id="btnContactUs">
-                                        Send Message
-                                    </button>
+                        <form action="#" method="POST" id="contactForm" class="contact-us-form">
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
                                 </div>
                             </div>
-                        </form>
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <select class="form-control">
+                                        <option value="Choose Services" selected>Choose Services</option>
+                                        <option value="SEO">SEO</option>
+                                        <option value="PPC">PPC</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Graphic Designing">Graphic Designing</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <select class="form-control">
+                                        <option value="How did you Find us?" selected>How did you Find us?</option>
+                                        <option value="Social Media">Social Media</option>
+                                        <option value="Google/Search Engine"> Google/Search Engine</option>
+                                        <option value="Advertisement">Advertisement</option>
+                                        <option value="Referral">Referral</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group mb-4">
+                                    <textarea name="message" id="message" class="form-control" rows="7" cols="25" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 ">
+                                <button type="submit" class="btn secondary-solid-btn mt-3" id="btnContactUs">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                     </div>
                 </div>
                 <div class="col-md-5">

@@ -225,6 +225,7 @@
         </div>
     </section>
     <!---->
+    <?php include_once('common/consulting-section.php'); ?>
 </div>
 <!--footer section start-->
 <?php include_once('common/footer.php'); ?>

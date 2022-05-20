@@ -83,10 +83,10 @@
                                     <h4 class="text-white">GET IN TOUCH</h4>
                                     <ul class="get-in-touch-list">
                                         <li class="d-flex align-items-center py-2"><span
-                                                class="fas fa-map-marker-alt me-2"></span> 1234 Street Name, City Name, USA
+                                                class="fas fa-map-marker-alt me-2"></span> 3181 Sector 37-D, Chandigarh, 160036
                                         </li>
                                         <li class="d-flex align-items-center py-2"><span
-                                                class="fas fa-envelope me-2"></span> you@domain.com
+                                                class="fas fa-envelope me-2"></span>info@edifyingvoyages.com
                                         </li>
                                     </ul>
                                     <!-- <form class="newsletter-form mt-3">

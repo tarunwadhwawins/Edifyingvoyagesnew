@@ -203,7 +203,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Adwords Management</h5>
+                        <h5>Website Management</h5>
                         <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
                             partnerships.</p>
                         <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
@@ -232,21 +232,6 @@
             </div>
         </div>
     </section>
-    <!---->
-    <!-- <section class="call-to-action ptb-70 primary-bg">
-        <div class="container-xl">
-            <div class="row  justify-content-center">
-                <div class="col-md-10 col-lg-9">
-                    <div class="section-heading text-center text-white">
-                        <h2 class="text-white">Best Consulting Every Business</h2>
-                        <p>Interactively evisculate performance based ROI whereas premier mindshare. Dramatically matrix
-                            real-time convergence rather than empowered manufactured products.</p>
-                        <a href="#" class="btn outline-white-btn mt-3">Start Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
     <!---->
     <section class="portfolio-section ptb-100 gray-light-bg">
         <div class="container-xl">

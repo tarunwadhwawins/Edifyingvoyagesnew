@@ -497,7 +497,7 @@ jQuery(function ($) {
           // The color of the curcular bar. You can pass either a css valid color string like rgb, rgba hex or string colors. But you can also pass a function that accepts the current percentage as a value to return a dynamically generated color.
           barColor: '#00457f',
           // The color of the track for the bar, false to disable rendering.
-          trackColor: '#ffffff',
+          trackColor: '#eee',
           // The color of the scale lines, false to disable rendering.
           scaleColor: 'transparent',
           // Defines how the ending of the bar line looks like. Possible values are: butt, round and square.
