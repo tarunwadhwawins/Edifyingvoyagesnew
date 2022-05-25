@@ -55,18 +55,15 @@ require_once('../core/ajax.php');
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-
                                         <th class="text-nowrap">Sr. No</th>
                                         <th class="text-nowrap">Ip Address</th>
                                         <th>URL</th>
                                         <th>Name</th>
                                         <th>Email Id</th>
-                                        <th>Country </th>
-                                        <th>State</th>
-                                        <th>City</th>
                                         <th>Phone No.</th>
+                                        <th>Service </th>
                                         <th>Find Us</th>
-                                        <!-- <th>Message</th> -->
+                                        <th>Message</th>
                                         <th>Actions</th>
                                     </tr>
                                 </thead>
@@ -79,14 +76,12 @@ require_once('../core/ajax.php');
                                                 <td><?php echo $i; ?></td>
                                                 <td><?php echo $row['IP']; ?></td>
                                                 <td><?php echo $row['URL']; ?></td>
-                                                <td><?php echo $row['FirstName']; ?></td>
+                                                <td><?php echo $row['Name']; ?></td>
                                                 <td><?php echo $row['Email']; ?></td>
-                                                <td><?php echo $row['Country']; ?></td>
-                                                <td><?php echo $row['State']; ?></td>
-                                                <td><?php echo $row['City']; ?></td>
                                                 <td><?php echo $row['Phone']; ?></td>
+                                                <td><?php echo $row['Service']; ?></td>
                                                 <td><?php echo $row['FindUs']; ?></td>
-                                                <!-- <td><?php echo $row['Message']; ?></td> -->
+                                                <td><?php echo $row['Message']; ?></td> 
                                                 <td class="text-nowrap">
                                                     <a class="btn btn-primary mr-2 " onclick="contact_detail(this);" data-load='<?php echo str_replace("'", "",  json_encode($row)); ?>'><i class="fa fa-eye"></i></a>
                                                                             
@@ -117,15 +112,14 @@ require_once('../core/ajax.php');
             function contact_detail(ele){
                 var data = $(ele).data('load');
                 console.log(data);
-                $("#name").text(data.FirstName);
+                $("#name").text(data.Name);
                 $("#email").text(data.Email);
                 $("#ip").text(data.IP);
                 $("#url").text(data.URL);
-                $("#county").text(data.Country);
-                $("#state").text(data.State);
-                $("#city").text(data.City);
-                $("#phone").text(data.Phone);
+                $("#service").text(data.Service);
                 $("#find_us").text(data.FindUs);
+           
+                $("#phone").text(data.Phone);
                 $("#message").text(data.Message);
 
                 $("#contact_detail").modal("show");
@@ -154,14 +148,11 @@ require_once('../core/ajax.php');
             <div class="col-sm-6" id="name">...</div>
             <div class="col-sm-6">Email</div>
             <div class="col-sm-6" id="email">...</div>
-            <div class="col-sm-6">Country</div>
-            <div class="col-sm-6" id="county">...</div>
-            <div class="col-sm-6">State</div>
-            <div class="col-sm-6" id="state">...</div>
-            <div class="col-sm-6">City</div>
-            <div class="col-sm-6" id="city">...</div>
             <div class="col-sm-6">Phone No</div>
             <div class="col-sm-6" id="phone">...</div>
+            <div class="col-sm-6">Service</div>
+            <div class="col-sm-6" id="service">...</div>
+           
             <div class="col-sm-6">Find Us</div>
             <div class="col-sm-6" id="find_us">...</div>
             <div class="col-sm-12">Message</div>

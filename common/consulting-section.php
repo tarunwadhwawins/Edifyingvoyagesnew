@@ -7,27 +7,28 @@
             <div class="col-md-6">
                 <div class="contact-us-form gray-dark-bg rounded p-5">
                     <h4>Ready to get started?</h4>
-                    <form action="#" method="POST" id="contactForm" class="contact-us-form">
+                    <form  method="POST" id="contactForm" class="contact-us-form">
+                        <div id='quotesmessage'></div>
                         <div class="form-row">
                             <div class="col-12">
                                 <div class="form-group mb-4">
-                                    <input type="text" class="form-control" name="name" placeholder="Enter name" required="required">
+                                    <input type="text" class="form-control" name="name" placeholder="Enter name" data-validation="required">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-group mb-4">
-                                    <input type="email" class="form-control" name="email" placeholder="Enter email" required="required">
+                                    <input type="email" class="form-control" name="email" placeholder="Enter email" data-validation="required email">
                                 </div>
                             </div>
                             <div class="col-12">
                                     <div class="form-group mb-4">
-                                        <input type="phone" class="form-control" name="phone" placeholder="Enter Phone No" required="required">
+                                        <input type="phone" class="form-control" name="phone" placeholder="Enter Phone No" data-validation="required">
                                     </div>
                                 </div>
                             <div class="col-12">
                                 <div class="form-group mb-4">
-                                    <select class="form-control">
-                                        <option value="Choose Services" selected>Choose Services</option>
+                                    <select class="form-control" name="service">
+                                        <option value="" selected>Choose Services</option>
                                         <option value="SEO">SEO</option>
                                         <option value="PPC">PPC</option>
                                         <option value="Social Media">Social Media</option>
@@ -37,8 +38,8 @@
                             </div>
                             <div class="col-12">
                                 <div class="form-group mb-4">
-                                    <select class="form-control">
-                                        <option value="How did you Find us?" selected>How did you Find us?</option>
+                                    <select class="form-control" name="findus">
+                                        <option value="" selected>How did you Find us?</option>
                                         <option value="Social Media">Social Media</option>
                                         <option value="Google/Search Engine"> Google/Search Engine</option>
                                         <option value="Advertisement">Advertisement</option>
