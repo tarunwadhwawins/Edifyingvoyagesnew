@@ -17,7 +17,7 @@
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group mb-4">
-                                        <input type="email" class="form-control" name="email" placeholder="Enter email" data-validation="required">
+                                        <input type="email" class="form-control" name="email" placeholder="Enter email" data-validation="required email">
                                     </div>
                                 </div>
                                 <div class="col-12">
