@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_GET['action']) && !empty($_
         if ($conn->query($sql) === TRUE) {
             
             // Contact Information to Client
-            /*sendEmail('info@ditstek.com', "Contact Information", userInformationHtml($request));
+            /*sendEmail('info@edifyingvoyages.com', "Contact Information", userInformationHtml($request));
             
             // Thank you email to User
             $message = customerEmailData($request['quotes_first_name']);
@@ -84,7 +84,7 @@ function customerEmailData($Name) {
                                   <tbody>
                                     <tr>
                                       <td><p style="text-align:center;height:30px;overflow:hidden;margin:0"> <a href="https://www.instagram.com/ditstek_innovations/" style="text-decoration:none;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/Instagram.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> <a href="https://www.facebook.com/Ditstek" style="text-decoration:none;padding:0;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/fb.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> <a href="https://twitter.com/DitsTek" style="text-decoration:none;padding:0;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/Twitter.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> <a href="https://www.youtube.com/c/ditstek" style="text-decoration:none;padding:0;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/Youtube.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> <a href="https://www.behance.net/DitstekInnovations" style="text-decoration:none;padding:0;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/behance.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> <a href="https://www.linkedin.com/company/ditstek-innovations" style="text-decoration:none;padding:0;display:inline-block;margin:0 5px" target="_blank"><img alt="image" border="0" src="https://www.ditstek.com/emailimages/linkedin.png" height="auto" width="28" style="outline:none;color:#ffffff;display:block;text-decoration:none;border-color:#ececec" class="CToWUd"></a> </p>
-                                        <p style="color:#fff;font-family:Lato,sans-serif;font-size:15px;line-height:15px;margin-top:15px;margin-bottom:0px;padding:0;font-weight:normal;text-align:center"> <a href="tel:+91-623-942-1395" style="color:#fff;text-decoration:none;font-family:Lato,sans-serif" target="_blank">+91-623-942-1395</a>, <a href="mailto:info@ditstek.com" style="color:#fff;text-decoration:none;font-family:Lato,sans-serif" target="_blank">info@ditstek.com</a> </p>
+                                        <p style="color:#fff;font-family:Lato,sans-serif;font-size:15px;line-height:15px;margin-top:15px;margin-bottom:0px;padding:0;font-weight:normal;text-align:center"> <a href="tel:+91-623-942-1395" style="color:#fff;text-decoration:none;font-family:Lato,sans-serif" target="_blank">+91-623-942-1395</a>, <a href="mailto: info@edifyingvoyages.com" style="color:#fff;text-decoration:none;font-family:Lato,sans-serif" target="_blank"> info@edifyingvoyages.com</a> </p>
                                         <p style="color:#fff;font-family:Lato,sans-serif;font-size:15px;line-height:15px;margin-top:5px;margin-bottom:0px;padding:0;font-weight:normal;text-align:center"> <a href="https://www.ditstek.com/" style="color:#fff;text-decoration:none;font-family:Lato,sans-serif" target="_blank">www.ditstek.com </a> </p>
                                       </td>
                                     </tr>
@@ -109,7 +109,7 @@ function customerEmailData($Name) {
 
 function sendEmail($to_email, $subject, $message) {
     try {
-        $from_email = 'info@ditstek.com';
+        $from_email = ' info@edifyingvoyages.com';
         $mailheader = "From: ".$from_email."\r\n"; 
         $mailheader .= "Reply-To: ".$from_email."\r\n"; 
         $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
