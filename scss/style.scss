@@ -29,8 +29,10 @@
                 background-position: 0 25%;
                 display: inline-block;
                 margin-bottom: 20px;
+                width: 100px;
+                height: 100px;
+              }
             }
-        }
         p {
             color: var(--accent-color);
         }
@@ -297,6 +299,16 @@
         }
         a {
             color: var(--white-color) !important;
+        }
+        .icon-outer{
+            .icon-image{
+                filter: brightness(50);
+            }
+        }
+    }
+    .icon-outer{
+        .icon-image{
+         width:75px;
         }
     }
 }

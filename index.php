@@ -33,7 +33,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-music-alt text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/growth.svg" alt="image"  width="35"/>
+                                </span>
                             </div>
                             <h5>Guaranteed Growth</h5>
                             <p>Helping businesses to grow with our years of experience that converts them more customers</p>
@@ -44,7 +46,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-dashboard text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/dedicated-team.svg" alt="image" />
+                                </span>
                             </div>
                             <h5>Dedicated Team</h5>
                             <p>Dedicated Team to Plan and Develop the roadmap to delivery best outcomes</p>
@@ -55,7 +59,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-headphone-alt text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/brand-building.svg" alt="image" />
+                                </span>
                             </div>
                             <h5>Brand Building</h5>
                             <p>Building brands with creative thinking/ideation to open the doors for better growth.</p>
@@ -120,75 +126,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/seo.svg" alt="image" class="icon-image"/>
-                        </span>
-                        <h5>SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="icon-outer d-block mb-4">
-                        <img src="assets/svg-icons/ppc.svg" alt="image" class="icon-image"/>
-                        </span>
-                        <h5>Pay Per Click (PPC)</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Social Media Marketing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                        <h5>eCommerce SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Website Management</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Graphic Designing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-            </div>
+            <?php include_once('common/services.php'); ?>
         </div>
     </section>
     <section class="enquireDesc ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                        <h3>WANT MORE SALES?</h3>
-                        <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
-                        <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
+                    <h3>WANT MORE SALES?</h3>
+                    <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
+                    <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -210,7 +157,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                <?php include_once('common/portfolio.php'); ?> 
+                    <?php include_once('common/portfolio.php'); ?>
                 </div>
             </div>
         </div>

@@ -28,6 +28,8 @@
   background-position: 0 25%;
   display: inline-block;
   margin-bottom: 20px;
+  width: 100px;
+  height: 100px;
 }
 .promo-section .single-promo-2 p {
   color: var(--accent-color);
@@ -277,6 +279,12 @@
 }
 .services-single:hover a {
   color: var(--white-color) !important;
+}
+.services-single:hover .icon-outer .icon-image {
+  filter: brightness(50);
+}
+.services-single .icon-outer .icon-image {
+  width: 75px;
 }
 
 .enquireDesc {

@@ -85,104 +85,14 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-search icon-lg color-secondary d-block mb-4"></span>
-                        <h5>SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Pay Per Click (PPC)</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Social Media Marketing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                        <h5>eCommerce SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Website Management</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Graphic Designing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-            </div>
+            <?php include_once('common/services.php'); ?>
         </div>
     </section>
     <!---->
     <section class="call-to-action ptb-100">
         <div class="container-xl">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="70"><span>70%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Keywords Results</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="75"><span>75%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Google Analytics</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="20"><span>20%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Competition Metrics</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="65"><span>65%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>SEO & Marketing</h5>
-                    </div>
-                </div>
+                <?php include_once('common/service-counters.php'); ?>
             </div>
         </div>
     </section>
