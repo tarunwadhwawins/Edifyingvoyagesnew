@@ -64,12 +64,11 @@
                 </div>
                 <div class="col-md-5">
                     <div class="contact-us-content">
-                        <h2>Looking for a excellent Business idea?</h2>
-                        <!-- <p class="lead">Seamlessly deliver pandemic e-services and next-generation initiatives.</p> -->
+                        <h2>Start your digital transformation today</h2>
+                        <p>Ready for a slick new website, increased traffic and more converting customers? Tell us a little about your business and we’ll reach out to get your project underway.</p>
                         <!-- <a href="#" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a> -->
                         <h5>Contact Us</h5>
                         <ul class="list-unstyled">
-                            <li><a href="tel:+91-708-708-7356"><span class="fas fa-phone-alt me-2"></span>+91-708-708-7356</a></li>
                             <li><a href="tel:+91-708-708-7356"><span class="fas fa-phone-alt me-2"></span>+91-708-708-7356</a></li>
                             <li><span class="infoEmail"><a href="mailto:info@edifyingvoyages.com"><span class="fas fa-envelope me-2"></span>info@edifyingvoyages.com</a></span></li>
                         </ul>
@@ -77,7 +76,7 @@
                         <h5>For HR and other enquiries:</h5>
                         <ul class="list-unstyled">
                             <li><a href="tel:+91-987-726-7234"><span class="fas fa-phone-alt me-2"></span>+91-987-726-7234</a></li>
-                            <li><a href="tel:+91-987-726-7234"><span class="fas fa-phone-alt me-2"></span>+91-987-726-7234</a></li>
+                            <li><span class="infoEmail"><a href="mailto:info@edifyingvoyages.com"><span class="fas fa-envelope me-2"></span>info@edifyingvoyages.com</a></span></li>
                         </ul>
                         <hr class="my-3">
                         <h5>More options to reach us:</h5>

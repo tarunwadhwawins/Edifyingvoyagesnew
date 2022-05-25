@@ -13,7 +13,7 @@
   will-change: transform;
 }
 .promo-section .single-promo-2:hover {
-  ransform: translateY(-5px);
+  transform: translateY(-5px);
   box-shadow: 0 1rem 3rem rgba(31, 45, 61, 0.125) !important;
 }
 .promo-section .single-promo-2 .circle-icon {

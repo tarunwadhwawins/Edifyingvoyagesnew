@@ -65,7 +65,7 @@
             <div class="col-md-5">
                 <div class="contact-us-content">
                     <h2>Looking for a excellent Business idea?</h2>
-                    <p class="lead">Seamlessly deliver pandemic e-services and next-generation initiatives.</p>
+                    <p>We work with our clients to identify and develop the discriminating capabilities</p>
                     <a href="https://goo.gl/maps/ULXDGuz1payrVTaL7" target="_blank" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
                     <hr class="my-3">
                     <h5>Contact Us</h5>
