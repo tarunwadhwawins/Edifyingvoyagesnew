@@ -134,42 +134,7 @@
     <section class="call-to-action ptb-100 gray-light-bg">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="70"><span>70%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Keywords Results</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="75"><span>75%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Google Analytics</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="80"><span>80%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>Competition Metrics</h5>
-                    </div>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <div class="circle-box">
-                        <div class="chart" data-percent="65"><span>65%</span></div>
-                    </div>
-                    <div class="progress-info text-center mt-3">
-                        <strong class="color-secondary">Our Services</strong>
-                        <h5>SEO & Marketing</h5>
-                    </div>
-                </div>
+                <?php include_once('common/service-counters.php'); ?>
             </div>
         </div>
     </section>

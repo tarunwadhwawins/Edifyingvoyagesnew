@@ -33,7 +33,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-music-alt text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/growth.svg" alt="image"  width="35"/>
+                                </span>
                             </div>
                             <h5>Guaranteed Growth</h5>
                             <p>Helping businesses to grow with our years of experience that converts them more customers</p>
@@ -44,7 +46,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-dashboard text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/dedicated-team.svg" alt="image" />
+                                </span>
                             </div>
                             <h5>Dedicated Team</h5>
                             <p>Dedicated Team to Plan and Develop the roadmap to delivery best outcomes</p>
@@ -55,7 +59,9 @@
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
-                                <span class="ti-headphone-alt text-white"></span>
+                                <span class="text-white">
+                                    <img src="assets/svg-icons/brand-building.svg" alt="image" />
+                                </span>
                             </div>
                             <h5>Brand Building</h5>
                             <p>Building brands with creative thinking/ideation to open the doors for better growth.</p>
@@ -82,49 +88,6 @@
                         <span class="animate-border mb-4"></span>
                         <p>What makes us diverse from other computerized showcasing organizations is the truth that we cut the fluff. Everything we do is done from a business owner’s viewpoint and is straightforwardly tied to making strides in your web approach. Your methodologies are established in information and analytics and we have the mastery and innovation to tell you what’s working and what’s not. </p>
                         <p>We’ve alliance with hundreds of small, medium, and venture businesses to urge the come about they need through comprehensive, cohesive computerized showcasing campaigns. Our workers see the world through the eyes of a commerce proprietor and use analytics and information to showcase our clients’ businesses as if they were our possessions. If you’re seeking out a marketing partner that serves as your de facto VP of promoting, increments, leads, and differentiates your brand within the commercial center and optimize showcasing costs, you’ve found your people.</p>
-                        <!-- <ul class="list-unstyled tech-feature-list">
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Creative</strong>
-                                Websites Design
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Accounting</strong>
-                                Procedures Guidebook
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Cost</strong>
-                                Accounting Fundamentals
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Corporate</strong>
-                                Cash Management
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>SEO</strong>
-                                Optimization Services
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Company</strong>
-                                Brand Solutions
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>45-Day</strong>
-                                Money-Back Guarantee
-                            </li>
-                        </ul>
-                        <div class="row mt-4">
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">4566</h2>
-                                    <strong>Total Project</strong>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">25002</h2>
-                                    <strong>Total Customer</strong>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">4566</h2>
-                                    <strong>Total Project</strong>
-                                </div>
-                            </div>
-                        </div> -->
                         <div class="action-btns mt-4">
                             <a href="#" class="btn secondary-solid-btn me-3">Start Now</a>
                             <a href="#" class="btn secondary-outline-btn">Learn More</a>
@@ -163,71 +126,16 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-announcement icon-lg color-secondary d-block mb-4"></span>
-                        <h5>SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-light-bulb icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Pay Per Click (PPC)</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-headphone-alt icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Social Media Marketing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-bell icon-lg color-secondary d-block mb-4"></span>
-                        <h5>eCommerce SEO</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-briefcase icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Website Management</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
-                        <span class="ti-vector icon-lg color-secondary d-block mb-4"></span>
-                        <h5>Graphic Designing</h5>
-                        <p class="mb-0">Progressively empower business "outside the box" thinking with resource-leveling
-                            partnerships.</p>
-                        <a href="services-details" target="_blank" class="detail-link mt-4">Read more <span class="ti-arrow-right"></span></a>
-                    </div>
-                </div>
-            </div>
+            <?php include_once('common/services.php'); ?>
         </div>
     </section>
     <section class="enquireDesc ptb-100">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                        <h3>WANT MORE SALES?</h3>
-                        <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
-                        <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
+                    <h3>WANT MORE SALES?</h3>
+                    <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
+                    <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
                 </div>
             </div>
         </div>
@@ -249,130 +157,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                    <div class="feature-tabs-wrap">
-                        <ul class="nav nav-tabs feature-tabs feature-tabs-center d-flex" data-tabs="tabs">
-                            <li class="nav-item">
-                                <a class="nav-link text-center active" href="#feature-tab-1" data-bs-toggle="tab">
-                                    <h6 class="mb-0">Logo</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="#feature-tab-2" data-bs-toggle="tab">
-                                    <h6 class="mb-0">Graphics</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center " href="#feature-tab-3" data-bs-toggle="tab">
-                                    <h6 class="mb-0">Websites</h6>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-center" href="#feature-tab-4" data-bs-toggle="tab">
-                                    <h6 class="mb-0">CMS</h6>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="tab-content feature-tab-content">
-                            <div class="tab-pane active mt-5" id="feature-tab-1">
-                                <div class="row justify-content-around">
-                                    <div class="col-md-12">
-                                        <div class="portfolio-content">
-                                            <div class="owl-carousel owl-theme portfolio-testimonial-1">
-                                                <div class="item">
-                                                    <div class="portfolio-wrapper">
-                                                        <div class="portfolio-left">
-                                                            <div class="portfolio-image">
-                                                                <img src="assets/images/portfolio/logos/portfolio-logo1.jpg" alt="image" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="portfolio-right">
-                                                            <div class="portfolio-desc">
-                                                                <h4>Esthetic Planners</h4>
-                                                                <h5>Logo Design</h5>
-                                                                <span class="animate-border mb-4"></span>
-                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
-                                                                <div class="portfolio-title">Website</div>
-                                                                <div class="portfolio-name "><a href="https://www.estheticplanners.com/" target="_blank">Esthetic Planners</a></div>
-
-                                                                <div class="portfolio-title">Country</div>
-                                                                <div class="portfolio-name ">India</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="portfolio-wrapper">
-                                                        <div class="portfolio-left">
-                                                            <div class="portfolio-image">
-                                                                <img src="assets/images/portfolio/logos/portfolio-logo2.jpg" alt="image" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="portfolio-right">
-                                                            <div class="portfolio-desc">
-                                                                <h4>Staffpot</h4>
-                                                                <h5>Logo Design</h5>
-                                                                <span class="animate-border mb-4"></span>
-                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
-                                                                <div class="portfolio-title">Website</div>
-                                                                <div class="portfolio-name "><a href="https://www.indianarthroscopy.com/" target="_blank">Staffpot</a></div>
-
-                                                                <div class="portfolio-title">Country</div>
-                                                                <div class="portfolio-name ">India</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="item">
-                                                    <div class="portfolio-wrapper">
-                                                        <div class="portfolio-left">
-                                                            <div class="portfolio-image">
-                                                                <img src="assets/images/portfolio/logos/portfolio-logo3.jpg" alt="image" />
-                                                            </div>
-                                                        </div>
-                                                        <div class="portfolio-right">
-                                                            <div class="portfolio-desc">
-                                                                <h4>Indian Arthroscopy</h4>
-                                                                <h5>Logo Design</h5>
-                                                                <span class="animate-border mb-4"></span>
-                                                                <p>Creatively customized design with edges in shape of India's Map to promote the main message.</p>
-                                                                <div class="portfolio-title">Website</div>
-                                                                <div class="portfolio-name "><a href="https://www.indianarthroscopy.com/" target="_blank">Indian Arthroscopy</a></div>
-
-                                                                <div class="portfolio-title">Country</div>
-                                                                <div class="portfolio-name ">India</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <!-- <div class="item">111</div>  -->
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane mt-5" id="feature-tab-2">
-                                <div class="row justify-content-around">
-                                    <div class="col-md-12">
-                                        2
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane  mt-5" id="feature-tab-3">
-                                <div class="row justify-content-around">
-                                    <div class="col-md-12">
-                                        3
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane mt-5" id="feature-tab-4">
-                                <div class="row justify-content-around">
-                                    <div class="col-md-12">
-                                        4
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php include_once('common/portfolio.php'); ?>
                 </div>
             </div>
         </div>

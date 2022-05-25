@@ -217,6 +217,13 @@ b {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    &:focus {
+        background: transparent;
+        border: 1px solid var(--primary-color);
+        color: var(--primary-color);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 }
 .secondary-outline-btn {
     padding: 12px 30px;
@@ -233,6 +240,12 @@ b {
         -webkit-box-shadow: none;
         box-shadow: none;
     }
+    &:focus {
+        background: var(--primary-color);
+        color: var(--white-color);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
 }
 .outline-white-btn {
     padding: 12px 30px;
@@ -244,8 +257,13 @@ b {
     display: inline-block;
     border: 1px solid var(--white-color);
     transition: all 0.5s ease-in-out 0s;
-
     &:hover {
+        background: var(--primary-color);
+        color: var(--white-color);
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+    &:focus {
         background: var(--primary-color);
         color: var(--white-color);
         -webkit-box-shadow: none;
