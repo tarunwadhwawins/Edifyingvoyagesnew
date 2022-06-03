@@ -5,7 +5,7 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/portfolio-banner.webp')no-repeat center center / cover">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">

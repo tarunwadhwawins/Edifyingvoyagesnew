@@ -109,8 +109,8 @@
                      </div>
                      <div class="col-md-7 col-lg-6 d-none d-md-block d-lg-block">
                          <ul class="list-inline text-end social-list">
-                             <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
-                             <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                             <li class="list-inline-item"><a href="privacy-policy">Privacy Policy</a></li>
+                             <li class="list-inline-item"><a href="terms-conditions">Terms & Conditions</a></li>
                          </ul>
                      </div>
                  </div>

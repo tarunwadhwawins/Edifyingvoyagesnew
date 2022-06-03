@@ -52,7 +52,7 @@
                     <li><a href="about">About Us</a></li>
                     <li><a href="services" class="dropdown-toggle">Services</a>
                     <ul class="sub-menu">
-                            <li><a href="#" class="dropdown-toggle-inner">SEO</a>
+                            <li><a href="seo" class="dropdown-toggle-inner">SEO</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">SEO Outsourcing</a></li>
                                     <li><a href="#">SEO Consultancy</a></li>
@@ -83,7 +83,7 @@
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="blog">Blogs</a></li>
                     <li><a href="contact-us">Contact Us</a></li>
-                    <li><a href="request-for-proposal" class="btn btn-primary opacity-1">Get Free Proposal</a></li>
+                    <li><a href="request-for-proposal" class="btn btn secondary-solid-btn opacity-1">Get Free Proposal</a></li>
                    
                 </ul>
             </div>

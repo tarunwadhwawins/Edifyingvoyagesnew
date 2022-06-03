@@ -33,7 +33,7 @@ jQuery(function ($) {
 
   // 2. fixed navbar
   $(window).on('scroll', function () {
-   
+
     // checks if window is scrolled more than 500px, adds/removes solid class
     if ($(this).scrollTop() > 0) {
       $('.navbar').addClass('affix');
@@ -264,6 +264,18 @@ jQuery(function ($) {
     items: 1,
   });
 
+  $('.graphics-testimonial').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: false,
+    responsiveClass: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    lazyLoad: true,
+    items: 1,
+  });
+
   $('.client-testimonial').owlCarousel({
     loop: true,
     margin: 30,
@@ -334,6 +346,24 @@ jQuery(function ($) {
 
     }
   });
+
+  // counters
+
+  $(document).ready(function () {
+    $('.counter-value').each(function () {
+      $(this).prop('Counter', 0).animate({
+        Counter: $(this).text()
+      }, {
+        duration: 3500,
+        easing: 'swing',
+        step: function (now) {
+          $(this).text(Math.ceil(now));
+        }
+      });
+    });
+  });
+
+
 
   // // 11. mixitup portfolio
   // $(function () {
@@ -492,29 +522,29 @@ jQuery(function ($) {
   //   });
 
   // 17. chart js
-  $(function() {
-      $('.chart').easyPieChart({
-          // The color of the curcular bar. You can pass either a css valid color string like rgb, rgba hex or string colors. But you can also pass a function that accepts the current percentage as a value to return a dynamically generated color.
-          barColor: '#00457f',
-          // The color of the track for the bar, false to disable rendering.
-          trackColor: '#eee',
-          // The color of the scale lines, false to disable rendering.
-          scaleColor: 'transparent',
-          // Defines how the ending of the bar line looks like. Possible values are: butt, round and square.
-          lineCap: 'round',
-          // Width of the bar line in px.
-          lineWidth: 15,
-          // Size of the pie chart in px. It will always be a square.
-          size: 180,
-          // Time in milliseconds for a eased animation of the bar growing, or false to deactivate.
-          animate: 2000,
-          // Callback function that is called at the start of any animation (only if animate is not false).
-          onStart: $.noop,
-          // Callback function that is called at the end of any animation (only if animate is not false).
-          onStop: $.noop
-      });
+  // $(function() {
+  //     $('.chart').easyPieChart({
+  //         // The color of the curcular bar. You can pass either a css valid color string like rgb, rgba hex or string colors. But you can also pass a function that accepts the current percentage as a value to return a dynamically generated color.
+  //         barColor: '#00457f',
+  //         // The color of the track for the bar, false to disable rendering.
+  //         trackColor: '#eee',
+  //         // The color of the scale lines, false to disable rendering.
+  //         scaleColor: 'transparent',
+  //         // Defines how the ending of the bar line looks like. Possible values are: butt, round and square.
+  //         lineCap: 'round',
+  //         // Width of the bar line in px.
+  //         lineWidth: 15,
+  //         // Size of the pie chart in px. It will always be a square.
+  //         size: 180,
+  //         // Time in milliseconds for a eased animation of the bar growing, or false to deactivate.
+  //         animate: 2000,
+  //         // Callback function that is called at the start of any animation (only if animate is not false).
+  //         onStart: $.noop,
+  //         // Callback function that is called at the end of any animation (only if animate is not false).
+  //         onStop: $.noop
+  //     });
 
-  });
+  // });
 
   // // 18. Contact Form
   // if($("#contactForm").length) {

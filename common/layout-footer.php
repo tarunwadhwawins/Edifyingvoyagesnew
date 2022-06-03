@@ -2,7 +2,6 @@
 <script type="text/javascript" src="<?php echo $url; ?>assets/js/jquery-3.5.0.min.js"></script>
 <script type="text/javascript" src="<?php echo $url; ?>assets/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="<?php echo $url; ?>assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="<?php echo $url; ?>assets/js/jquery.easy-pie-chart.js"></script>
 <script type="text/javascript" src="<?php echo $url; ?>assets/js/scripts.js"></script>
 <!---->
 <script src="assets/form-validator/jquery.form-validator.js"></script>

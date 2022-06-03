@@ -19,7 +19,7 @@
                 </div>
                 <div class="col-md-12 col-lg-7">
                     <div class="image-wrap pt-5 pb-5">
-                        <img src="assets/images/t1-hero-img.svg" class="img-fluid custom-width" alt="hero" />
+                        <img src="assets/images/banner.webp" class="img-fluid custom-width" alt="hero" />
                     </div>
                 </div>
             </div>
@@ -34,7 +34,7 @@
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">
                             <div class="circle-icon">
                                 <span class="text-white">
-                                    <img src="assets/svg-icons/growth.svg" alt="image"  width="35"/>
+                                    <img src="assets/svg-icons/growth.svg" alt="image" />
                                 </span>
                             </div>
                             <h5>Guaranteed Growth</h5>
@@ -77,8 +77,8 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="about-us-img">
-                        <img src="assets/images/about-us-img.svg" alt="about us" class="img-fluid about-single-img">
-                        <img src="assets/images/about-us-img-bg.svg" alt="about bg" class="about-us-bg">
+                        <img src="assets/images/about-us-banner.png" alt="about us" class="img-fluid about-single-img">
+                        <!-- <img src="assets/images/about-us-banner1.png" alt="about us" class="img-fluid about-single-img"> -->
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
@@ -103,9 +103,8 @@
             <div class="row justify-content-center">
                 <div class="col-md-10 col-lg-9">
                     <div class="section-heading text-center text-white">
-                        <h2 class="text-white">Check Your Site Performance</h2>
-                        <p class="lead">Globally reinvent cross-unit human capital whereas virtual catalysts for change. Assertively
-                            network accurate methods of empowerment rather than client-centered improvements.</p>
+                        <h2 class="text-white">Looking for Data Driven Digital Marketing Services?</h2>
+                        <p class="lead">Have you stuck with your digital marketing campaign? Discover how your business can grow and unlock revenue opportunities with us. Contact us today and get your business to new levels</p>
                     </div>
                 </div>
             </div>
@@ -120,22 +119,22 @@
                         <strong class="color-secondary">Our Services</strong>
                         <h2>Our Digital Marketing Expertise</h2>
                         <span class="animate-border me-auto ms-auto mb-4"></span>
-                        <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas.
-                            Dynamically
-                            foster tactical solutions without enabled value.</p>
+                        <p class="lead">We offer a complete set of integrated services to drive your business digital growth. Get a overview of our services!</p>
                     </div>
                 </div>
             </div>
-            <?php include_once('common/services.php'); ?>
+            <?php include_once('common/service-section.php'); ?>
         </div>
     </section>
-    <section class="enquireDesc ptb-100">
+    <section class="enquireDesc ptb-100" style="background: url('assets/images/sales-banner.webp')no-repeat center center / cover">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h3>WANT MORE SALES?</h3>
-                    <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
-                    <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
+                    <div class="enquireDescInner">
+                        <h3>WANT MORE SALES?</h3>
+                        <p>Get your <a href="javascript:void(0);"> FREE Proposal </a> on how we can help you with that!</p>
+                        <a href="javascript:void(0);" class="btn outline-white-btn hover-grow ">Get Started Now <i class="fa fa-angle-double-right"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -168,10 +167,9 @@
             <div class="row align-items-center">
                 <div class="col-md-6 col-lg-5">
                     <div class="testimonial-heading">
-                        <h2>What Our Client Say About Us</h2>
+                        <h2>Clients Love Us!</h2>
                         <span class="animate-border mb-4"></span>
-                        <p>Collaboratively actualize excellent schemas without effective models. Synergistically
-                            engineer functionalized applications rather than backend e-commerce.</p>
+                        <p>While working with our clients we insure to deliver the best of us and that's why our clients are happy with our services. See how much our client love us!</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">

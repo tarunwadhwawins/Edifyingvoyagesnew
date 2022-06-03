@@ -5,7 +5,7 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/about-us.webp')no-repeat center center / cover">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
@@ -131,10 +131,10 @@
         </div>
     </section>
     <!---->
-    <section class="call-to-action ptb-100 gray-light-bg">
+    <section class="call-to-action ptb-70 gray-light-bg">
         <div class="container">
             <div class="row">
-                <?php include_once('common/service-counters.php'); ?>
+            <?php include_once('common/service-counters.php'); ?> 
             </div>
         </div>
     </section>

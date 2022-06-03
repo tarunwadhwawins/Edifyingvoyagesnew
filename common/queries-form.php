@@ -1,8 +1,5 @@
 <section class="contact-us-section ptb-100">
         <div class="container-xl contact">
-            <div class="col-12 pb-3 message-box d-none">
-                <div class="alert alert-danger"></div>
-            </div>
             <div class="row justify-content-around">
                 <div class="col-md-6">
                     <div class="contact-us-form gray-light-bg rounded p-5">
@@ -64,8 +61,8 @@
                 </div>
                 <div class="col-md-5">
                     <div class="contact-us-content">
-                        <h2>Start your digital transformation today</h2>
-                        <p>Ready for a slick new website, increased traffic and more converting customers? Tell us a little about your business and we’ll reach out to get your project underway.</p>
+                        <h2>Build Brand Digitally with Us!</h2>
+                        <p>Ready to build brand and grow your business with us? Fill the form with relevant information and we will get back to you soon with our plan.</p>
                         <!-- <a href="#" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a> -->
                         <h5>Contact Us</h5>
                         <ul class="list-unstyled">
