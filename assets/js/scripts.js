@@ -304,6 +304,18 @@ jQuery(function ($) {
     }
   });
 
+  $('.website-testimonial').owlCarousel({
+    loop: true,
+    margin: 30,
+    nav: false,
+    dots: false,
+    responsiveClass: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    lazyLoad: true,
+    items: 1
+  });
+
   // // 9. hero content one item carousel
   // $('.hero-content-slider').owlCarousel({
   //   loop: true,

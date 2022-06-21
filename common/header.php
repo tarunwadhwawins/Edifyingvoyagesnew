@@ -61,19 +61,19 @@
 
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">PPC</a>
+                            <li><a href="ppc" class="dropdown-toggle-inner">PPC</a>
                                 <ul class="sub-menu">
                                     <li><a href="download.html">Adwords Management</a></li>
                                     <li><a href="review.html">Bing Ads Management</a></li>
                                     <li><a href="faq.html">PPC Remarketing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Social Media</a>
+                            <li><a href="social-media" class="dropdown-toggle-inner">Social Media</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Social Media Marketing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Graphic Design</a>
+                            <li><a href="graphic-design" class="dropdown-toggle-inner">Graphic Design</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Social Media Designer</a></li>
                                 </ul>

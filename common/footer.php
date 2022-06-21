@@ -55,10 +55,10 @@
                                      <h4 class="text-white text-uppercase">Services</h4>
                                      <ul class="nav flex-column">
                                          <li class="nav-item">
-                                             <a class="nav-link" href="#">SEO</a>
+                                             <a class="nav-link" href="seo">SEO</a>
                                          </li>
                                          <li class="nav-item">
-                                             <a class="nav-link" href="#">PPC</a>
+                                             <a class="nav-link" href="ppc">PPC</a>
                                          </li>
                                          <li class="nav-item">
                                              <a class="nav-link" href="#">Social Media</a>
@@ -102,7 +102,7 @@
              <div class="container-xl">
                  <div class="row align-items-center justify-content-between">
                      <div class="col-md-5 col-lg-5">
-                         <p class="copyright-text pb-0 mb-0">Copyrights © 2020. All
+                         <p class="copyright-text pb-0 mb-0">Copyrights © 2022. All
                              rights reserved by
                              <a href="#" target="_blank">Edifying Voyages</a>
                          </p>

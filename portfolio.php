@@ -11,12 +11,12 @@
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
                         <h1 class="color-white mb-0">Portfolio</h1>
-                        <div class="custom-breadcrumb">
+                        <!-- <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
                                 <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Portfolio</li>
                             </ol>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
