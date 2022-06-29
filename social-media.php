@@ -5,7 +5,7 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/service-banner.webp')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/social-media-banner.webp')no-repeat center center / cover">
         <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
@@ -98,7 +98,7 @@
             <div class="row">
                 <div class="col-md-6 col-lg-6">
                     <div class="seo-business-img">
-                        <img src="assets/images/ppc-agency.webp" alt="about us" class="img-fluid about-single-img">
+                        <img src="assets/images/social-media-business-growth.webp" alt="about us" class="img-fluid about-single-img">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6">
@@ -128,8 +128,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/ppc-audit.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/ppc-audit-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/social-media-audit.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/social-media-audit-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Social Media Audit</h5>
                         <p class="mb-0">We Audit your social media campaigns in the past and also the ongoing campaigns to extract essential insights. These insights will help you create powerful strategies in the future. At Edifying Voyages, we meet all your specific demands in social media optimization by evaluating these audit reports.</p>
@@ -138,8 +138,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/google-ads.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/google-ads-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/custom-post-designing.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/custom-post-designing-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Custom Post Designing</h5>
                         <p class="mb-0">Create a customizable post to allure your consumers. We have expert graphic designers and social media experts to create appealing marketing materials that can potentially maximize your revenue. At Edifying Voyages, we completely assess your niche and create custom posts that precisely suit your brand.</p>
@@ -148,8 +148,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/bing-ads.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/bing-ads-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/social-marketing.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/social-marketing-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Social Media Marketing</h5>
                         <p class="mb-0">Our social media management company ensures that your social media platform looks attractive and engaging with the implementation of accurate tags. We use hashtags that can make your trend in every news feed. We also leverage your brand value by making you more credible with enticing posts on social media.
@@ -159,8 +159,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/remarketing-ads.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/remarketing-ads-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/social-media-posting.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/social-media-posting-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Social Media Posting</h5>
                         <p class="mb-0">Seamlessly post all your marketing content to the social media platforms in one go! We use the most advanced tools and strategies to seamlessly post your content to all social media platforms. Our postings increase your engagement and help you gain new followers.</p>
@@ -169,8 +169,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/social-ads.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/social-ads-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/hashtag-optimization.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/hashtag-optimization-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Hashtag Optimization</h5>
                         <p class="mb-0">Hashtags are a significant element in your social media campaigns that enable you to reach out to your target audience. Whether it is Instagram, Facebook, or Twitter, we use the most trending hashtags that can bring you to the limelight.</p>
@@ -179,8 +179,8 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
-                            <img src="assets/svg-icons/service-ads.svg" alt="image" class="icon-image default-image">
-                            <img src="assets/svg-icons/service-ads-white.svg" alt="image" class="icon-image hover-image">
+                            <img src="assets/svg-icons/social-reports.svg" alt="image" class="icon-image default-image">
+                            <img src="assets/svg-icons/social-reports-white.svg" alt="image" class="icon-image hover-image">
                         </span>
                         <h5>Social Media Reports</h5>
                         <p class="mb-0">Get internal reporting about your social media performance and every activity on the platform. Our efficient social media reporting presents a power-packed analysis that can help you further your campaign. We also create it in a slide presentation to help you better understand your performance</p>
@@ -220,7 +220,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="seo-business-img">
-                        <img src="assets/images/edifying-ppc.webp" alt="why Edifying" class="img-fluid about-single-img">
+                        <img src="assets/images/social-media-agency.webp" alt="why Edifying" class="img-fluid about-single-img">
                     </div>
                 </div>
             </div>
