@@ -95,6 +95,14 @@
                 <div class="col-md-12">
                     <div class="business-desc">
                           <div class="business-content"><p>You’ve come to the best recto. We’ve alliance with hundreds of small, medium, and venture businesses to urge the come about they need through comprehensive, cohesive computerized showcasing campaigns. Our workers see the world through the eyes of a commerce proprietor and use analytics and</p></div>
+                          <div class="business-wrapper">
+                             <div class="business-container">
+                                <span class="icon">?</span>
+                               <label>Need MORE out of your online showcasing?</label>
+                             </div>  
+                             <div class="business-image">
+                             </div>    
+                          </div>
                           <div class="business-content"><p>information to showcase our clients’ businesses as if they were our possessions. If you’re seeking out a marketing partner that serves as your de facto VP of promoting, increments, leads, and differentiates your brand within the commercial center and optimizes showcasing costs, you’ve found your people.</p></div>
                     </div>
                 </div>
@@ -102,54 +110,36 @@
         </div>
     </section>
     <!---->
-    <!-- <section class="client-section ptb-100" style="background: url('assets/images/client-bg.png')no-repeat center center / cover">
+    <section class="how-its-done ptb-100">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <div class="client-heading-wrap">
-                        <h3>Who are Happy With Services and Work</h3>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="client-para">
-                        <p>Seamlessly administrate synergistic growth strategies and collaborative markets. Globally
-                            empower inexpensive infomediaries after sustainable mindshare. Phosfluorescently brand
-                            professional collaboration and idea-sharing without principle-centered interfaces. </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-center mb-4">
-                <div class="col-md-10 col-lg-9">
-                    <div class="owl-carousel owl-theme clients-carousel dot-indicator client-logo-wrap">
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="done-desc text-center">
+                        <h3 class="text-white">HOW IT’S DONE</h3>
+                        <p class="text-white">Our Digital Marketing Team Believes In </br> Driving Results</p>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
+    <!---->
+    <section class="digital-marketing ptb-70">
+        <div class="container">
+            <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="section-heading text-center mb-5">
+                        <h2>Digital Marketing Services</h2>
+                        <span class="animate-border me-auto ms-auto mb-4"></span>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="digital-desc">
+                         
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!---->
     <?php include_once('common/consulting-section.php'); ?>
 </div>

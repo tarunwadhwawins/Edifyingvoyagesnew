@@ -1023,9 +1023,11 @@
 .customer-base {
     .customer-base-img {
         position: relative;
-        img{
-         width:100%;
+
+        img {
+            width: 100%;
         }
+
         .customer-base-content {
             background: linear-gradient(180deg, #0D78B4 0%, #4BABE1 48.96%, #529EC8 100%);
             box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.19);
@@ -1048,6 +1050,7 @@
             }
         }
     }
+
     .customer-base-desc {
         display: flex;
         flex-direction: column;
@@ -1055,6 +1058,62 @@
         height: 100%;
         @media (max-width:991px) {
             margin: 30px 0 0;
+        }
+    }
+}
+
+.digital-business {
+    .business-desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .business-content {}
+
+        .business-wrapper {
+            margin: 0 85px;
+
+            .business-container {
+                background: linear-gradient(180deg, #0D78B4 0%, #4BABE1 48.96%, #529EC8 100%);
+                border-radius: 14.2222px;
+                width: 256px;
+                height: 256px;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
+                .icon {
+                    font-size: 80px;
+                    line-height: 80px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    margin: 0 0 22px 0;
+                }
+
+                label {
+                    font-weight: 600;
+                    font-size: 26.1988px;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+            }
+
+            .business-image {}
+
+        }
+
+    }
+}
+
+.how-its-done {
+    background-image: url(../images/marketing-team.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .done-desc {
+        p {
+          font-size:24px;
         }
     }
 }

@@ -862,8 +862,51 @@
   justify-content: center;
   height: 100%;
 }
+<<<<<<< Updated upstream
 @media (max-width: 991px) {
   .customer-base .customer-base-desc {
     margin: 30px 0 0;
   }
+=======
+
+.digital-business .business-desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.digital-business .business-desc .business-wrapper {
+  margin: 0 85px;
+}
+.digital-business .business-desc .business-wrapper .business-container {
+  background: linear-gradient(180deg, #0D78B4 0%, #4BABE1 48.96%, #529EC8 100%);
+  border-radius: 14.2222px;
+  width: 256px;
+  height: 256px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.digital-business .business-desc .business-wrapper .business-container .icon {
+  font-size: 80px;
+  line-height: 80px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 0 22px 0;
+}
+.digital-business .business-desc .business-wrapper .business-container label {
+  font-weight: 600;
+  font-size: 26.1988px;
+  line-height: 32px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.how-its-done {
+  background-image: url(../images/marketing-team.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.how-its-done .done-desc p {
+  font-size: 24px;
+>>>>>>> Stashed changes
 }
