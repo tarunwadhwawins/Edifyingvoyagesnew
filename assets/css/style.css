@@ -862,12 +862,11 @@
   justify-content: center;
   height: 100%;
 }
-<<<<<<< Updated upstream
 @media (max-width: 991px) {
   .customer-base .customer-base-desc {
     margin: 30px 0 0;
   }
-=======
+}
 
 .digital-business .business-desc {
   display: flex;
@@ -908,5 +907,4 @@
 }
 .how-its-done .done-desc p {
   font-size: 24px;
->>>>>>> Stashed changes
 }
