@@ -124,9 +124,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5 gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/ppc-audit.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/ppc-audit-white.svg" alt="image" class="icon-image hover-image">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/google-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/google-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/bing-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/bing-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/remarketing-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/remarketing-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/service-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/service-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -241,33 +241,33 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center  my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Always the work and portfolio</h5>
                         <p class="mb-0">When you are choosing a graphic design agency, you must evaluate them based on their past work. Assess their experience by seeing their portfolio. Not having the proper portfolio is the biggest signal that the design agency is worth your investment.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center  my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Look for extensive services</h5>
                         <p class="mb-0">The term design services must not limit to logo and graphic designs for banners only. You should expect a wide range of services from your graphic designing services. There must be multiple services to strengthen your marketing campaign.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center  my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Find out the skills you want in designers</h5>
                         <p class="mb-0">If you wish to achieve an impressive design, you need to choose the right designers with the required design skills. You can specify the skills you wish to have from the designer you are working with.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center  my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Check for Designer’s Qualifications </h5>
                         <p class="mb-0">Apart from the agency's experience, you should also check for the designers' qualifications. The designer’s skill in creating graphics matters for your business. Always go with the experienced designer.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center  my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Check out the template designs</h5>
                         <p class="mb-0">Always check the template designs to find out the efficiency of your graphic designing agency. Explore from their library. Choose an agency that offers you competitive designs with amazing look and feel.
                         </p>

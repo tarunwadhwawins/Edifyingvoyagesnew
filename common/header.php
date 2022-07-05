@@ -47,6 +47,7 @@
                 <span class="ti-menu"></span>
             </button>
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                <i class="ti-close hideMobileMenu"></i>
                 <ul class="navbar-nav ms-auto menu">
                     <li><a href="index">Home</a></li>
                     <li><a href="about">About Us</a></li>
@@ -90,3 +91,5 @@
         </div>
     </nav>
   </header>
+  <div class="bg-section hide"></div>
+

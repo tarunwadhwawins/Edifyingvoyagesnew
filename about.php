@@ -20,14 +20,14 @@
     <section class="about-business ptb-70">
         <div class="container">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-lg-4">
                 <div class="business-desc">
                     <h2>We Thrive To Transform Your Websites Into Flawless- Business Assets</h2>
                     <h3>We are one of the fastest growing digital agencies having expertise in</h3>
                     <p>Whether you are looking to construct an unused computerized involvement from the ground up or bring yours into the present day, we plan and build adaptable arrangements to fit any team’s needs.</p>
                 </div>
               </div>
-              <div class="col-md-8">
+              <div class="col-lg-8">
                 <div class="about-services">
                     <div class="inner-service">
                       <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
@@ -62,7 +62,7 @@
     <section class="customer-base ptb-70 gray-light-bg">
         <div class="container">
             <div class="row">
-              <div class="col-md-6">
+              <div class="col-lg-6">
                 <div class="customer-base-img">
                   <img src="assets/images/customer-base.webp" alt="image"/>
                    <div class="customer-base-content">
@@ -70,7 +70,7 @@
                     </div> 
                 </div>
               </div>
-              <div class="col-md-5 offset-md-1">
+              <div class="col-lg-5 offset-lg-1">
               <div class="customer-base-desc">
                   <h2>We Assist And Engage With The Customer Base</h2>
                   <p>Our team is committed to planning and developing the required roadmaps to maximize the customer experience level   while delivering the best possible outcomes they’re looking for . </p>

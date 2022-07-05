@@ -110,10 +110,16 @@ h5 {
 
 h1 {
     font-size: 3.052em;
+    @media (max-width:575px) {
+        font-size: 2.5em;
+    }
 }
 
 h2 {
     font-size: 2.441em;
+    @media (max-width:575px) {
+        font-size: 1.8em;
+    }
 }
 
 h3 {

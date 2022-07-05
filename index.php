@@ -28,7 +28,7 @@
     <!---->
     <section class="promo-section ptb-100">
         <div class="container-xl">
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-md-4 col-lg-4">
                     <a href="#">
                         <div class="single-promo-2 single-promo-hover rounded text-center white-bg p-5 h-100">

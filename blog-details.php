@@ -26,10 +26,10 @@
     <section class="module ptb-100">
         <div class="container-xl">
             <div class="row">
-            <div class="col-lg-8 col-md-8">
+                <div class="col-lg-8">
                     <!-- Post-->
                     <article class="post">
-                        <div class="post-preview"><img src="assets/images/blog/1-w.jpg" alt="article" class="img-fluid"/></div>
+                        <div class="post-preview"><img src="assets/images/blog/1-w.jpg" alt="article" class="img-fluid" /></div>
                         <div class="post-wrapper">
                             <div class="post-header">
                                 <h1 class="post-title">Minimalist Chandelier</h1>
@@ -58,7 +58,7 @@
                     </article>
                     <!-- Post end-->
                 </div>
-                <div class="col-lg-4 col-md-4">
+                <div class="col-lg-4">
                     <div class="sidebar-left pr-4">
                         <aside class="widget widget-search">
                             <form>
@@ -84,15 +84,15 @@
                             </div>
                             <ul>
                                 <li class="clearfix">
-                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded"/></a></div>
+                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
                                     <div class="wb"><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">May 8, 2016</span></div>
                                 </li>
                                 <li class="clearfix">
-                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded"/></a></div>
+                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
                                     <div class="wb"><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">May 8, 2016</span></div>
                                 </li>
                                 <li class="clearfix">
-                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded"/></a></div>
+                                    <div class="wi"><a href="#"><img src="assets/images/blog/1.jpg" alt="recent post" class="img-fluid rounded" /></a></div>
                                     <div class="wb"><a href="#">Map where your photos were taken and discover local points.</a><span class="post-date">May 8, 2016</span></div>
                                 </li>
                             </ul>
@@ -102,10 +102,8 @@
                                 <h6>Newsletter</h6>
                             </div>
                             <p>Enter your email address below to subscribe to my newsletter</p>
-                            <form action="#" method="post"
-                                  class="d-none d-md-block d-lg-block">
-                                <input type="text" class="form-control input" id="email-footer" name="email"
-                                       placeholder="info@yourdomain.com">
+                            <form action="#" method="post" class="d-none d-md-block d-lg-block">
+                                <input type="text" class="form-control input" id="email-footer" name="email" placeholder="info@yourdomain.com">
                                 <button type="submit" class="btn secondary-solid-btn btn-block btn-not-rounded mt-3">Subscribe</button>
                             </form>
                         </aside>
@@ -117,7 +115,7 @@
                         </aside>
                     </div>
                 </div>
-      
+
             </div>
         </div>
     </section>

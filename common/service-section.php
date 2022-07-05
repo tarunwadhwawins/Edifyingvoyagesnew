@@ -1,6 +1,6 @@
-<div class="row">
+<div class="row gy-4">
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/seo.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/seo-white.svg" alt="image" class="icon-image hover-image" />
@@ -12,7 +12,7 @@
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/ppc.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/ppc-white.svg" alt="image" class="icon-image hover-image" />
@@ -24,7 +24,7 @@
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/social-media-marketing.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/social-media-marketing-white.svg" alt="image" class="icon-image hover-image" />
@@ -36,7 +36,7 @@
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/e-commerce.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/e-commerce-white.svg" alt="image" class="icon-image hover-image" />
@@ -48,7 +48,7 @@
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/website-management.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/website-management-white.svg" alt="image" class="icon-image hover-image" />
@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+        <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
             <span class="icon-outer d-block mb-4">
                 <img src="assets/svg-icons/designing.svg" alt="image" class="icon-image default-image" />
                 <img src="assets/svg-icons/designing-white.svg" alt="image" class="icon-image hover-image" />

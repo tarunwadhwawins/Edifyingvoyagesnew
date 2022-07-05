@@ -124,9 +124,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5 gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-media-audit.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-media-audit-white.svg" alt="image" class="icon-image hover-image">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/custom-post-designing.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/custom-post-designing-white.svg" alt="image" class="icon-image hover-image">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-marketing.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-marketing-white.svg" alt="image" class="icon-image hover-image">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-media-posting.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-media-posting-white.svg" alt="image" class="icon-image hover-image">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/hashtag-optimization.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/hashtag-optimization-white.svg" alt="image" class="icon-image hover-image">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-reports.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-reports-white.svg" alt="image" class="icon-image hover-image">
@@ -234,37 +234,37 @@
                     <div class="section-heading text-center mb-5">
                         <h2>How to Choose the Best SMO Agency? </h2>
                         <span class="animate-border me-auto ms-auto mb-4"></span>
-                        <p class="lead">Social media presence is an obligatory demand for businesses right now! If you wish to stand as a competing brand on social media, you need to implement the most robust social  media strategy. The best SMO Company can help you attain all your business objectives and leverage traffic to your website. You can always look for:</p>
-                        </div>`
-                    </div>
+                        <p class="lead">Social media presence is an obligatory demand for businesses right now! If you wish to stand as a competing brand on social media, you need to implement the most robust social media strategy. The best SMO Company can help you attain all your business objectives and leverage traffic to your website. You can always look for:</p>
+                    </div>`
                 </div>
-                <div class="row">
- <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Dedicated experts</h5>
                         <p class="mb-0">Make sure that the SMO agency you choose has dedicated SMO experts with better knowledge and exposure to the strategies.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Knowledge about your domain</h5>
                         <p class="mb-0">Choose an SMO agency that is well-aware of your niche, and implement the correct digital campaigns for your niche.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Use of right tools</h5>
                         <p class="mb-0">The SMO agency must use advanced and result-driven tools to empower your inefficient social media posting and optimization.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Quick and efficient communication</h5>
                         <p class="mb-0">An ideal SMO agency must be quite quick in interacting and be available for you 24/7. We respond to you in a snap to meet all your demands.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Check the reviews</h5>
                         <p class="mb-0">Always read out the reviews of the SMO agency to get the best results. They can maximize your revenue with better expertise.</p>
                     </div>

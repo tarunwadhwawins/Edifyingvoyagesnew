@@ -15,6 +15,7 @@
 }
 .header .navbar.fixed-top {
   top: auto;
+  z-index: 1024;
 }
 .header .navbar.fixed-top.affix {
   top: 0;
@@ -24,6 +25,47 @@
   font-size: inherit;
   height: auto;
   width: 80px;
+}
+@media (max-width: 991px) {
+  .header .navbar .collapse {
+    display: block !important;
+    position: fixed;
+    right: -300px;
+    top: 0;
+    background: #fff;
+    bottom: 0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    transition: 0.5s;
+    z-index: 1060;
+  }
+  .header .navbar .collapse.active {
+    right: 0;
+    transition: 0.5s;
+  }
+  .header .navbar .collapse .ti-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+  }
+  .header .navbar .collapse .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .navbar .collapse .menu li .sub-menu .sub-menu {
+    left: 70px !important;
+    top: 100% !important;
+  }
+  .header .navbar .collapse .menu li .sub-menu .sub-menu:hover::after {
+    border-right-color: var(--primary-color);
+  }
+  .header .navbar .collapse .menu li .sub-menu .sub-menu::after {
+    transform: rotate(90deg);
+    left: 16px;
+    top: -16px;
+  }
 }
 .header .navbar .menu {
   display: block;
@@ -141,4 +183,19 @@
   visibility: visible;
   opacity: 1;
   transform: translate(0, 0);
+}
+
+.bg-section {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+  z-index: 1024;
+  right: 300px;
+  left: 0;
+  transition: 0.5s;
+}
+.bg-section.hide {
+  transition: 0.5s;
+  right: 0;
+  left: auto;
 }

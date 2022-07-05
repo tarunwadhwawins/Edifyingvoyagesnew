@@ -124,9 +124,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5 gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/ppc-audit.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/ppc-audit-white.svg" alt="image" class="icon-image hover-image">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/google-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/google-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/bing-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/bing-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -157,7 +157,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/remarketing-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/remarketing-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/social-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/social-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -177,7 +177,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/service-ads.svg" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/service-ads-white.svg" alt="image" class="icon-image hover-image">
@@ -238,33 +238,33 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Ensure industry expertise</h5>
                         <p class="mb-0">When choosing a PPC agency, you should ensure that they are familiar with your industry. It is because; they would always be aware of what strategy to implement.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Understand your goals</h5>
                         <p class="mb-0">Ensure that your PPC agency is aware of your marketing goals, and business objectives. By identifying goals your PPC campaign can generate unexpected revenue.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Assure efficient strategy implementation</h5>
                         <p class="mb-0">Your PPC management services should use the best strategies that assist you to appear in a big picture.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Know about the pricing</h5>
                         <p class="mb-0">Access the free quotes and compare the prices. Ensure that it's not too good/expensive to be a deal.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Check out their portfolio</h5>
                         <p class="mb-0">You must check out their past experiences and efficiency before investing in them. This helps you make a better decision.
                         </p>

@@ -124,9 +124,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <div class="row mb-5 gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/keyword-research.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/keyword-research-white.webp" alt="image" class="icon-image hover-image">
@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/seo-outsource.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/seo-outsource-white.webp" alt="image" class="icon-image hover-image">
@@ -146,7 +146,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/on-page.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/on-page-white.webp" alt="image" class="icon-image hover-image">
@@ -156,7 +156,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/off-page.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/off-page-white.webp" alt="image" class="icon-image hover-image">
@@ -166,7 +166,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/local-seo.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/local-seo-white.webp" alt="image" class="icon-image hover-image">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <span class="icon-outer d-block mb-4">
                             <img src="assets/svg-icons/e-commerce-seo.webp" alt="image" class="icon-image default-image">
                             <img src="assets/svg-icons/e-commerce-seo-white.webp" alt="image" class="icon-image hover-image">
@@ -238,33 +238,33 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row gy-4">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Ask for the case studies</h5>
                         <p class="mb-0">Have a discussion to determine efficiency in their past case studies. Find whether all those strategies have been result-driven.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Talk to SEO experts in person</h5>
                         <p class="mb-0">Have a conversation with the SEO experts from the agency. Know how they will work for you! Their vision can let you believe in them.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Avoid cheap SEO Services</h5>
                         <p class="mb-0">Competition in the domain brings you several SEO outsourcing company. Many of them offer you cheap and affordable services. </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-2">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5> Avoid too good to be a deal</h5>
                         <p class="mb-0">Fake assurances can ruin your SEO campaigning. There are an impeccable number of SEO agencies that can assure you of good results and also guarantees.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <div class="services-single text-center p-5 my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
+                    <div class="services-single text-center my-md-3 my-lg-3 my-sm-0 shadow-sm white-bg rounded">
                         <h5>Know about the pricing models</h5>
                         <p class="mb-0">To make a fruitful decision, you have to be aware of the pricing model as well. Ask for quotes and compare to make the best decision.
                         </p>

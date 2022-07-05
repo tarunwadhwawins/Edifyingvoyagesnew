@@ -3,6 +3,9 @@
 .footer-section {
     .footer-top {
         padding: 65px 0;
+        @media (max-width:575px) {
+            padding: 30px 0;
+        }
         .footer-top-wrap {
             .footer-nav-wrap {
                 font-size: 13px;
@@ -21,6 +24,9 @@
                 h4 {
                     font-size: 13px;
                     margin-bottom: 1.4rem;
+                    @media (max-width:575px) {
+                        margin: 20px 0 10px;
+                    }
                 }
                 .social-nav {
                     .social-list {

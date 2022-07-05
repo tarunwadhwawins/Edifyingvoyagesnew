@@ -19,6 +19,7 @@
         transition: all 0.3s ease-in-out;
         &.fixed-top {
             top: auto;
+            z-index: 1024;
             &.affix {
                 top: 0;
                 box-shadow: 0 3px 20px 0 rgb(0 0 0 / 12%);
@@ -27,7 +28,55 @@
         .navbar-brand {
             font-size: inherit;
             height: auto;
-            width:80px;
+            width: 80px;
+        }
+        .collapse {
+            @media (max-width: 991px) {
+                display: block !important;
+                position: fixed;
+                right: -300px;
+                top: 0;
+                background: #fff;
+                bottom: 0;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                width: 300px;
+                transition: 0.5s;
+                z-index: 1060;
+                &.active {
+                    right: 0;
+                    transition: 0.5s;
+                }
+                .ti-close {
+                    position: absolute;
+                    right: 10px;
+                    top: 10px;
+                    cursor: pointer;
+                }
+
+                .menu {
+                    display: flex;
+                    flex-direction: column;
+                    li {
+                        .sub-menu {
+                            .sub-menu {
+                                left: 70px !important;
+                                top: 100% !important;
+                                &:hover {
+                                    &::after {
+                                        border-right-color: var(--primary-color);
+                                    }
+                                }
+                                &::after {
+                                    transform: rotate(90deg);
+                                    left: 16px;
+                                    top: -16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
         .menu {
             display: block;
@@ -35,14 +84,14 @@
                 display: inline-block;
                 position: relative;
                 a {
-                    font-size:14px;
+                    font-size: 14px;
                     font-weight: 600;
                     font-family: "Montserrat", sans-serif;
                     text-decoration: none;
-                    padding:10px 12px;
+                    padding: 10px 12px;
                     display: block;
                     transition: all 0.3s ease-in-out 0s;
-                    color:var(--menu-color);
+                    color: var(--menu-color);
                     opacity: 0.8;
                     &:hover {
                         opacity: 1;
@@ -63,7 +112,7 @@
                     width: 200px;
                     position: absolute;
                     left: 0;
-                    background:var(--white-color);
+                    background: var(--white-color);
                     z-index: 9;
                     border-radius: 4px;
                     transform: translate(0, 20px);
@@ -96,12 +145,12 @@
                             font-weight: normal;
                             display: block;
                             color: #424141;
-                            font-size:13px;
+                            font-size: 13px;
                             padding: 8px 15px;
                             font-family: "Montserrat", sans-serif;
                             &:hover {
-                                color:var(--white-color);
-                                background:var(--primary-color);
+                                color: var(--white-color);
+                                background: var(--primary-color);
                             }
                             &.dropdown-toggle-inner {
                                 &::after {
@@ -154,5 +203,20 @@
                 }
             }
         }
+    }
+}
+
+.bg-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    inset: 0;
+    z-index: 1024;
+    right: 300px;
+    left: 0;
+    transition: 0.5s;
+    &.hide {
+        transition: 0.5s;
+        right: 0;
+        left: auto;
     }
 }

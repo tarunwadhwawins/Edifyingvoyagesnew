@@ -25,7 +25,7 @@
     <!---->
     <section class="promo-section ptb-100">
         <div class="container-xl">
-            <div class="row justify-content-center">
+            <div class="row gy-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
                         <div class="promo-icon mb-4">
