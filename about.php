@@ -134,7 +134,26 @@
                 </div>
                 <div class="col-md-12">
                     <div class="digital-desc">
-                         
+                         <div class="row g-5 justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                         </div>
                     </div>
                 </div>
             </div>

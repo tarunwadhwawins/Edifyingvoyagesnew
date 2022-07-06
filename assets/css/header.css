@@ -26,6 +26,11 @@
   height: auto;
   width: 80px;
 }
+@media (min-width: 991px) {
+  .header .navbar .collapse .ti-close {
+    display: none;
+  }
+}
 @media (max-width: 991px) {
   .header .navbar .collapse {
     display: block !important;

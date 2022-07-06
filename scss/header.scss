@@ -31,6 +31,11 @@
             width: 80px;
         }
         .collapse {
+            .ti-close {
+                @media (min-width:991px) {
+                    display: none;
+                }
+            }
             @media (max-width: 991px) {
                 display: block !important;
                 position: fixed;
@@ -52,6 +57,7 @@
                     right: 10px;
                     top: 10px;
                     cursor: pointer;
+                   
                 }
 
                 .menu {

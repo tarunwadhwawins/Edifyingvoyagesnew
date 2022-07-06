@@ -97,7 +97,11 @@
 .portfolio-section .feature-tabs-wrap .feature-tab-content .portfolio-content .portfolio-wrapper {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .portfolio-section .feature-tabs-wrap .feature-tab-content .portfolio-content .portfolio-wrapper {
+    flex-wrap: wrap;
+  }
 }
 .portfolio-section .feature-tabs-wrap .feature-tab-content .portfolio-content .portfolio-wrapper .portfolio-left {
   margin-right: 50px;
@@ -808,7 +812,7 @@
 .about-business .about-services .inner-service {
   width: 213px;
   height: 227px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -837,7 +841,7 @@
   width: 100%;
 }
 .customer-base .customer-base-img .customer-base-content {
-  background: linear-gradient(180deg, #0D78B4 0%, #4BABE1 48.96%, #529EC8 100%);
+  background: linear-gradient(180deg, #0d78b4 0%, #4babe1 48.96%, #529ec8 100%);
   box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.19);
   border-radius: 10px;
   width: 324px;
@@ -852,7 +856,7 @@
   font-weight: 600;
   font-size: 41px;
   line-height: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   left: 40px;
   position: relative;
 }
@@ -877,7 +881,7 @@
   margin: 0 85px;
 }
 .digital-business .business-desc .business-wrapper .business-container {
-  background: linear-gradient(180deg, #0D78B4 0%, #4BABE1 48.96%, #529EC8 100%);
+  background: linear-gradient(180deg, #0d78b4 0%, #4babe1 48.96%, #529ec8 100%);
   border-radius: 14.2222px;
   width: 256px;
   height: 256px;
@@ -890,7 +894,7 @@
   font-size: 80px;
   line-height: 80px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: 0 0 22px 0;
 }
 .digital-business .business-desc .business-wrapper .business-container label {
@@ -898,7 +902,7 @@
   font-size: 26.1988px;
   line-height: 32px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .how-its-done {
   background-image: url(../images/marketing-team.jpg);
@@ -907,4 +911,28 @@
 }
 .how-its-done .done-desc p {
   font-size: 24px;
+}
+
+.digital-marketing .digital-desc .digital-desc-box {
+  background-color: #F1F1F1;
+  padding: 78px 36px 160px;
+  border-radius: 33px;
+  position: relative;
+}
+.digital-marketing .digital-desc .digital-desc-box h3 {
+  font-size: 41px;
+  color: var(--black-color);
+}
+.digital-marketing .digital-desc .digital-desc-box span {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 31px;
+  bottom: 25px;
+  cursor: pointer;
 }
