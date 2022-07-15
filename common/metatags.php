@@ -32,4 +32,4 @@
     <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
     <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
     <meta property="og:type" content="article" />
-    <link rel="canonical" href="<?php echo $current_page; ?>" />
+    <link rel="canonical" href="<?php echo $current_url; ?>" />
