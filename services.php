@@ -5,18 +5,18 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/services-banner.webp')no-repeat center center / cover">
         <div class="container-xl">
-            <div class="row-xl justify-content-center">
+            <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
                         <h1 class="color-white mb-0">Services</h1>
-                        <div class="custom-breadcrumb">
+                        <!-- <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
                                 <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Services</li>
                             </ol>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -25,7 +25,7 @@
     <!---->
     <section class="promo-section ptb-100">
         <div class="container-xl">
-            <div class="row justify-content-center">
+            <div class="row gy-4 justify-content-center">
                 <div class="col-md-6 col-lg-4">
                     <div class="promo-single-wrap p-5 text-center custom-shadow rounded">
                         <div class="promo-icon mb-4">
@@ -80,16 +80,15 @@
                         <strong class="color-secondary">Our Services</strong>
                         <h2>Our Digital Marketing Expertise</h2>
                         <span class="animate-border me-auto ms-auto mb-4"></span>
-                        <p class="lead">Efficiently aggregate end-to-end core competencies without maintainable ideas. Dynamically
-                            foster tactical solutions without enabled value.</p>
+                        <p class="lead">We offer a complete set of integrated services to drive your business digital growth. Get a overview of our services!</p>
                     </div>
                 </div>
             </div>
-            <?php include_once('common/services.php'); ?>
+            <?php include_once('common/service-section.php'); ?>
         </div>
     </section>
     <!---->
-    <section class="call-to-action ptb-100">
+    <section class="call-to-action ptb-70">
         <div class="container-xl">
             <div class="row">
                 <?php include_once('common/service-counters.php'); ?>

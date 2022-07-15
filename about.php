@@ -5,188 +5,158 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/aboutbg.webp')no-repeat center center / cover">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
                         <h1 class="color-white mb-0">About Us</h1>
-                        <div class="custom-breadcrumb">
-                            <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
-                                <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="list-inline-item breadcrumb-item active">About Us</li>
-                            </ol>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!---->
-    <section class="promo-section pt-100">
+    <section class="about-business ptb-70">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="business-desc">
+                    <h2>We Thrive To Transform Your Websites Into Flawless- Business Assets</h2>
+                    <h3>We are one of the fastest growing digital agencies having expertise in</h3>
+                    <p>Whether you are looking to construct an unused computerized involvement from the ground up or bring yours into the present day, we plan and build adaptable arrangements to fit any team’s needs.</p>
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="about-services">
+                    <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                   <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                   <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                   <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                   <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                   <div class="inner-service">
+                      <div class="icon"><img src="assets/svg-icons/local-seo.svg" alt="Local Seo"></div>
+                      <h4>Local SEO</h4>
+                   </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <section class="customer-base ptb-70 gray-light-bg">
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="customer-base-img">
+                  <img src="assets/images/customer-base.webp" alt="image"/>
+                   <div class="customer-base-content">
+                    <label>We Are The Team of Awesome Empoyees</label> 
+                    </div> 
+                </div>
+              </div>
+              <div class="col-lg-5 offset-lg-1">
+              <div class="customer-base-desc">
+                  <h2>We Assist And Engage With The Customer Base</h2>
+                  <p>Our team is committed to planning and developing the required roadmaps to maximize the customer experience level   while delivering the best possible outcomes they’re looking for . </p>
+                  <div class="action-btns mt-4">
+                    <a href="#" class="btn secondary-solid-btn me-3">Contact Us</a>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!---->
+    <section class="digital-business ptb-70">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-single-wrap p-5 text-center border rounded">
-                        <div class="promo-icon mb-4">
-                            <img src="assets/images/search-engine.svg" alt="promo" width="65">
-                            <span class="number-bg">01</span>
-                        </div>
-                        <div class="promo-info">
-                            <strong class="color-secondary">Discuss with Users</strong>
-                            <h4>Site Optimisation</h4>
-                            <p>What is business contents insurance? Business contents insurance is a type of
-                                business.</p>
-                        </div>
+            <div class="col-md-8">
+                    <div class="section-heading text-center mb-5">
+                        <h2>Digital Marketing Services Determined to  Boost Your Business</h2>
+                        <span class="animate-border me-auto ms-auto mb-4"></span>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-single-wrap p-5 text-center border rounded">
-                        <div class="promo-icon mb-4">
-                            <img src="assets/images/increase.svg" alt="promo" width="65">
-                            <span class="number-bg">02</span>
-                        </div>
-                        <div class="promo-info">
-                            <strong class="color-secondary">Discuss with Users</strong>
-                            <h4>Increased Traffic</h4>
-                            <p>What is business contents insurance? Business contents insurance is a type of
-                                business.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="promo-single-wrap p-5 text-center border rounded">
-                        <div class="promo-icon mb-4">
-                            <img src="assets/images/bullhorn.svg" alt="promo" width="65">
-                            <span class="number-bg">03</span>
-                        </div>
-                        <div class="promo-info">
-                            <strong class="color-secondary">Discuss with Users</strong>
-                            <h4>Digital Marketing</h4>
-                            <p>What is business contents insurance? Business contents insurance is a type of
-                                business.</p>
-                        </div>
+                <div class="col-md-12">
+                    <div class="business-desc">
+                          <div class="business-content"><p>You’ve come to the best recto. We’ve alliance with hundreds of small, medium, and venture businesses to urge the come about they need through comprehensive, cohesive computerized showcasing campaigns. Our workers see the world through the eyes of a commerce proprietor and use analytics and</p></div>
+                          <div class="business-wrapper">
+                             <div class="business-container">
+                                <span class="icon">?</span>
+                               <label>Need MORE out of your online showcasing?</label>
+                             </div>  
+                             <div class="business-image">
+                             </div>    
+                          </div>
+                          <div class="business-content"><p>information to showcase our clients’ businesses as if they were our possessions. If you’re seeking out a marketing partner that serves as your de facto VP of promoting, increments, leads, and differentiates your brand within the commercial center and optimizes showcasing costs, you’ve found your people.</p></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!---->
-    <section class="about-us-section ptb-100">
+    <section class="how-its-done ptb-100">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md-12 col-lg-5">
-                    <div class="about-us-content-wrap">
-                        <strong class="color-secondary">About Us</strong>
-                        <h3>Grow Your Business With Experienced SEO Experts</h3>
-                        <span class="animate-border mb-4"></span>
-                        <p>Globally transition proactive niches without progressive processes. Objectively syndicate
-                            enterprise-wide services through timely metrics. </p>
-                        <ul class="list-unstyled tech-feature-list">
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Creative</strong>
-                                Websites Design
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Accounting</strong>
-                                Procedures Guidebook
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Cost</strong>
-                                Accounting Fundamentals
-                            </li>
-                            <li class="py-1"><span class="ti-control-forward me-2 color-secondary"></span><strong>Corporate</strong>
-                                Cash Management
-                            </li>
-                        </ul>
-                        <div class="row mt-4">
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">4566</h2>
-                                    <strong>Total Project</strong>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">25002</h2>
-                                    <strong>Total Customer</strong>
-                                </div>
-                            </div>
-                            <div class="col-4">
-                                <div class="counter-single">
-                                    <h2 class="mb-0 color-secondary">4566</h2>
-                                    <strong>Total Project</strong>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="action-btns mt-4">
-                            <a href="#" class="btn secondary-solid-btn me-3">Start Now</a>
-                            <a href="#" class="btn secondary-outline-btn">Learn More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-lg-6">
-                    <div class="card border-0 text-white">
-
+            <div class="row justify-content-center">
+                <div class="col-md-12">
+                    <div class="done-desc text-center">
+                        <h3 class="text-white">HOW IT’S DONE</h3>
+                        <p class="text-white">Our Digital Marketing Team Believes In </br> Driving Results</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!---->
-    <section class="call-to-action ptb-100 gray-light-bg">
+    <section class="digital-marketing ptb-70">
         <div class="container">
-            <div class="row">
-                <?php include_once('common/service-counters.php'); ?>
-            </div>
-        </div>
-    </section>
-    <!---->
-    <section class="client-section ptb-100" style="background: url('assets/images/client-bg.png')no-repeat center center / cover">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-lg-6">
-                    <div class="client-heading-wrap">
-                        <h3>Who are Happy With Services and Work</h3>
+            <div class="row justify-content-center">
+            <div class="col-md-8">
+                    <div class="section-heading text-center mb-5">
+                        <h2>Digital Marketing Services</h2>
+                        <span class="animate-border me-auto ms-auto mb-4"></span>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="client-para">
-                        <p>Seamlessly administrate synergistic growth strategies and collaborative markets. Globally
-                            empower inexpensive infomediaries after sustainable mindshare. Phosfluorescently brand
-                            professional collaboration and idea-sharing without principle-centered interfaces. </p>
-                    </div>
-                </div>
-            </div>
-            <!--clients logo start-->
-            <div class="row align-items-center justify-content-center mb-4">
-                <div class="col-md-10 col-lg-9">
-                    <div class="owl-carousel owl-theme clients-carousel dot-indicator client-logo-wrap">
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
-                        <div class="item single-client">
-                            <img src="assets/images/clients-logo-04.png" alt="client logo" class="client-img">
-                        </div>
+                <div class="col-md-12">
+                    <div class="digital-desc">
+                         <div class="row g-5 justify-content-center">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="digital-desc-box">
+                                    <h3>Are you a business proprietor?</h3>
+                                    <span><img src="assets/svg-icons/right-arrow.svg" alt=""></span>
+                                </div>
+                            </div>
+                         </div>
                     </div>
                 </div>
             </div>
-            <!--clients logo end-->
         </div>
     </section>
     <!---->

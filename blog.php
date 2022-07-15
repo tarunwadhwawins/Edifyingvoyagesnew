@@ -5,18 +5,18 @@
 <!---->
 <div class="main pt-70">
     <!---->
-    <section class="about-section ptb-100" style="background: url('assets/images/header-bg-5.jpg')no-repeat center center / cover">
+    <section class="about-section ptb-100" style="background: url('assets/images/blog-banner.webp')no-repeat center center / cover">
         <div class="container-xl">
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-7">
                     <div class="page-header-content text-center pt-sm-5 pt-md-5 pt-lg-0">
                         <h1 class="color-white mb-0">Blog</h1>
-                        <div class="custom-breadcrumb">
+                        <!-- <div class="custom-breadcrumb">
                             <ol class="breadcrumb d-inline-block bg-transparent list-inline py-0">
                                 <li class="list-inline-item breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="list-inline-item breadcrumb-item active">Blog</li>
                             </ol>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>

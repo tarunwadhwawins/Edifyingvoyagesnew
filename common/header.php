@@ -47,12 +47,13 @@
                 <span class="ti-menu"></span>
             </button>
             <div class="collapse navbar-collapse h-auto" id="navbarSupportedContent">
+                <i class="ti-close hideMobileMenu"></i>
                 <ul class="navbar-nav ms-auto menu">
                     <li><a href="index">Home</a></li>
                     <li><a href="about">About Us</a></li>
                     <li><a href="services" class="dropdown-toggle">Services</a>
                     <ul class="sub-menu">
-                            <li><a href="#" class="dropdown-toggle-inner">SEO</a>
+                            <li><a href="seo" class="dropdown-toggle-inner">SEO</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">SEO Outsourcing</a></li>
                                     <li><a href="#">SEO Consultancy</a></li>
@@ -61,19 +62,19 @@
 
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">PPC</a>
+                            <li><a href="ppc" class="dropdown-toggle-inner">PPC</a>
                                 <ul class="sub-menu">
                                     <li><a href="download.html">Adwords Management</a></li>
                                     <li><a href="review.html">Bing Ads Management</a></li>
                                     <li><a href="faq.html">PPC Remarketing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Social Media</a>
+                            <li><a href="social-media" class="dropdown-toggle-inner">Social Media</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Social Media Marketing</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#" class="dropdown-toggle-inner">Graphic Design</a>
+                            <li><a href="graphic-design" class="dropdown-toggle-inner">Graphic Design</a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Social Media Designer</a></li>
                                 </ul>
@@ -83,10 +84,12 @@
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="blog">Blogs</a></li>
                     <li><a href="contact-us">Contact Us</a></li>
-                    <li><a href="request-for-proposal" class="btn btn-primary opacity-1">Get Free Proposal</a></li>
+                    <li><a href="request-for-proposal" class="btn btn secondary-solid-btn opacity-1">Get Free Proposal</a></li>
                    
                 </ul>
             </div>
         </div>
     </nav>
   </header>
+  <div class="bg-section hide"></div>
+

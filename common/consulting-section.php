@@ -1,8 +1,5 @@
 <section class="contact-us-section ptb-100  gray-light-bg">
     <div class="container-xl contact">
-        <div class="col-12 pb-3 message-box d-none">
-            <div class="alert alert-danger"></div>
-        </div>
         <div class="row justify-content-around">
             <div class="col-md-6">
                 <div class="contact-us-form gray-dark-bg rounded p-5">
@@ -64,8 +61,8 @@
             </div>
             <div class="col-md-5">
                 <div class="contact-us-content">
-                    <h2>Looking for a excellent Business idea?</h2>
-                    <p>We work with our clients to identify and develop the discriminating capabilities</p>
+                    <h2>Looking to Grow Your Business?</h2>
+                    <p>We helped lots of businesses in building their brand, we can do the same for you. Contact today!</p>
                     <a href="https://goo.gl/maps/ULXDGuz1payrVTaL7" target="_blank" class="btn secondary-outline-btn align-items-center">Get Directions <span class="ti-arrow-right pl-2"></span></a>
                     <hr class="my-3">
                     <h5>Contact Us</h5>
